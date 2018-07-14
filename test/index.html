@@ -1,0 +1,79 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Kripanshu Blog</title>
+  <!-- <meta name="description" content="The HTML5 Herald"> -->
+  <!-- <meta name="author" content="SitePoint"> -->
+
+  <link rel="stylesheet" href="css/style.css">
+  <!-- <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css"> -->
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css"> -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tinymce/4.8.0/plugins/codesample/css/prism.css">
+</head>
+
+<body>
+    <!-- HEADER-->
+    <div class="container" >
+        <div class="row" style="margin-left: 15%;">
+            <div class="jumbotron" id="header">
+                <div class="column" style="width: 15%;">
+                    <img src="img/me.jpg" class="img-circle" alt="Profile Picture">
+                </div>
+                <div class="column" id="userDes">
+                    <span class="user">Kripanshu Bhargava</span>
+                    <button class="followbtn"><img id="followimg" src="img/Symbol.png" alt="Follow" ></button>
+                    <p class="description">
+                        <i style="font-size: 4mm">Software developer intern at Harvard | Graduate Student at UTD</i><br />
+                        <i style="font-size: 4mm; color: black;">Published on May 14 2018</i>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="social-div">
+            <ul>
+                <li class="social" ><img id="social-img" src="img/thumb-up-outline.png" alt="Follow" ></li>
+                <li class="social"><img id="social-img" src="img/comment-processing.png" alt="Follow" ></li>
+                <li class="social" ><img id="social-img" src="img/share-variant.png" alt="Follow" ></li>
+            </ul>
+        </div>
+        <div class="row" style="margin-left: 15%; text-align: center;">
+            <div class="blog">
+                <h2 id="heading" style="text-align:center;" >Calculate ECDF using Python</h2>
+                <img src="img/WSW_.fw_.png" alt="blog picture" width="100%">
+                <div class="blogContent">
+                    <p>ECDF: Emperical Cumulative Distribution Function:<br>An empirical distribution function is the distribution function associated with the empirical measure of a sample. This cumulative distribution function is a step function that jumps up by 1/n at each of the n data points. Its value at any specified value of the measured variable is the fraction of observations of the measured variable that are less than or equal to the specified value. Let (x1, …, xn) be independent, identically distributed real random variables with the common cumulative distribution function F(t). Then the empirical distribution function is defined as:Source</p>
+                    <p><img class="b-lazy b-loaded" src="https://process.filestackapi.com/cache=expiry:max/TCeCvgmiR0WgGKofJZJq" alt="71580dc89f23ede22497b68ffb3803c220ad5ff7.svg" data-mce-src="https://process.filestackapi.com/cache=expiry:max/TCeCvgmiR0WgGKofJZJq"></p><p>Coming to my point, it is really hard to find an alternative for ecdf() function of R in Python.<br>There are few online codes available, but I verified this as the most accurate match to the R's<br>ecdf() function. It follows the algorithm behind calculating the ECDF of a given data.</p><p><br>If you want to calculate it on your own, then it is not a big function (in terms of LOC).</p><p>Let's say we are given a 1-D array that we name as data.</p><p><code></code></p><pre class="language-python" contenteditable="false"> data <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">101</span><span class="token punctuation">,</span> <span class="token number">118</span><span class="token punctuation">,</span> <span class="token number">121</span><span class="token punctuation">,</span> <span class="token number">103</span><span class="token punctuation">,</span> <span class="token number">142</span><span class="token punctuation">,</span> <span class="token number">111</span><span class="token punctuation">,</span> <span class="token number">119</span><span class="token punctuation">,</span> <span class="token number">122</span><span class="token punctuation">,</span> <span class="token number">128</span><span class="token punctuation">,</span> <span class="token number">112</span><span class="token punctuation">,</span> <span class="token number">117</span><span class="token punctuation">,</span><span class="token number">157</span><span class="token punctuation">]</span></pre><p>We would first convert it into a numpy array.</p><pre class="language-python" contenteditable="false">raw_data <span class="token operator">=</span> np<span class="token punctuation">.</span>array<span class="token punctuation">(</span>data<span class="token punctuation">)</span></pre><p>Now we would find the respective x and y values that represent the actual cdf of the data.</p><pre class="language-python" contenteditable="false"><span class="token comment" spellcheck="true"># create a sorted series of unique data</span> cdfx <span class="token operator">=</span> np<span class="token punctuation">.</span>sort<span class="token punctuation">(</span>data<span class="token punctuation">.</span>unique<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token comment" spellcheck="true"># x-data for the ECDF: evenly spaced sequence of the uniques</span> x_values <span class="token operator">=</span> np<span class="token punctuation">.</span>linspace<span class="token punctuation">(</span>start<span class="token operator">=</span>min<span class="token punctuation">(</span>cdfx<span class="token punctuation">)</span><span class="token punctuation">,</span> stop<span class="token operator">=</span>max<span class="token punctuation">(</span>cdfx<span class="token punctuation">)</span><span class="token punctuation">,</span>num<span class="token operator">=</span>len<span class="token punctuation">(</span>cdfx<span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token comment" spellcheck="true"># size of the x_values</span> size_data <span class="token operator">=</span> raw_data<span class="token punctuation">.</span>size <span class="token comment" spellcheck="true"># y-data for the ECDF:</span> y_values <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span> <span class="token keyword">for</span> i <span class="token keyword">in</span> x_value<span class="token punctuation">:</span> <span class="token comment" spellcheck="true"># all the values in raw data less than the ith value in x_values</span> temp <span class="token operator">=</span> raw_data<span class="token punctuation">[</span>raw_data <span class="token operator">&lt;=</span> i<span class="token punctuation">]</span> <span class="token comment" spellcheck="true"># fraction of that value with respect to the size of the x_values</span> value <span class="token operator">=</span> temp<span class="token punctuation">.</span>size <span class="token operator">/</span> size_data <span class="token comment" spellcheck="true"># pushing the value in the y_values</span> y_values<span class="token punctuation">.</span>append<span class="token punctuation">(</span>value<span class="token punctuation">)</span> <span class="token comment" spellcheck="true"># return both x and y values </span> <span class="token keyword">return</span> x_values<span class="token punctuation">,</span>y_values </pre><p>The possible answer would be two arrays representing the x and y values of ECDF.</p><pre class="language-python" contenteditable="false"><span class="token string">"cdf_x"</span><span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token number">101</span><span class="token punctuation">,</span> <span class="token number">106.090909090909</span><span class="token punctuation">,</span> <span class="token number">111.181818181818</span><span class="token punctuation">,</span> <span class="token number">116.272727272727</span><span class="token punctuation">,</span> <span class="token number">121.363636363636</span><span class="token punctuation">,</span> <span class="token number">126.454545454545</span><span class="token punctuation">,</span> <span class="token number">131.545454545455</span><span class="token punctuation">,</span> <span class="token number">136.636363636364</span><span class="token punctuation">,</span> <span class="token number">141.727272727273</span><span class="token punctuation">,</span> <span class="token number">146.818181818182</span><span class="token punctuation">,</span> <span class="token number">151.909090909091</span><span class="token punctuation">,</span> <span class="token number">157</span><span class="token punctuation">]</span> <span class="token string">"cdf_y"</span><span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token number">0.0833333333333333</span><span class="token punctuation">,</span> <span class="token number">0.166666666666667</span><span class="token punctuation">,</span> <span class="token number">0.25</span><span class="token punctuation">,</span> <span class="token number">0.333333333333333</span><span class="token punctuation">,</span> <span class="token number">0.666666666666667</span><span class="token punctuation">,</span> <span class="token number">0.75</span><span class="token punctuation">,</span> <span class="token number">0.833333333333333</span><span class="token punctuation">,</span> <span class="token number">0.833333333333333</span><span class="token punctuation">,</span> <span class="token number">0.833333333333333</span><span class="token punctuation">,</span> <span class="token number">0.916666666666667</span><span class="token punctuation">,</span> <span class="token number">0.916666666666667</span><span class="token punctuation">,</span> <span class="token number">1</span><span class="token punctuation">]</span> </pre><p><br></p><p>These results are verified with the following function in R:</p><pre class="language-python" contenteditable="false">x <span class="token operator">&lt;</span><span class="token operator">-</span> c<span class="token punctuation">(</span><span class="token number">101</span><span class="token punctuation">,</span> <span class="token number">118</span><span class="token punctuation">,</span> <span class="token number">121</span><span class="token punctuation">,</span> <span class="token number">103</span><span class="token punctuation">,</span> <span class="token number">142</span><span class="token punctuation">,</span> <span class="token number">111</span><span class="token punctuation">,</span> <span class="token number">119</span><span class="token punctuation">,</span> <span class="token number">122</span><span class="token punctuation">,</span> <span class="token number">128</span><span class="token punctuation">,</span> <span class="token number">112</span><span class="token punctuation">,</span> <span class="token number">117</span><span class="token punctuation">,</span><span class="token number">157</span><span class="token punctuation">)</span> ecdf<span class="token punctuation">(</span>x<span class="token punctuation">)</span></pre><p><br></p><p>Using the output you get in the above R code, you can find the respective x and y values.</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<img class="b-lazy b-loaded" src="https://process.filestackapi.com/cache=expiry:max/Kgkr1tIbQy6bEqsWLLtU" alt="Rplot02.jpeg" data-mce-src="https://process.filestackapi.com/cache=expiry:max/Kgkr1tIbQy6bEqsWLLtU"></p><p><br data-mce-bogus="1"></p>
+                </div>
+                <div class="blogTag" style="text-align: center">
+                    <ul class="tag">
+                        <li>Python</li>
+                        <li>Statictics</li>
+                        <li>Pandas</li>
+                        <li>R</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div>
+            <img src="img/flag.png" alt="report" width="3%" height="3%"><span style="margin-left: 1%; font-size: 6mm;">Report</span>
+        </div>
+        
+    </div>
+    <hr>
+    <div class="container">
+        <div class="form-group">
+            <label for="comment">Comment:</label>
+            <textarea class="form-control" rows="5" id="comment" placeholder="Leave a comment!"></textarea>
+        </div>
+    </div>
+
+  <script src="js/main.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
