@@ -6,6 +6,18 @@
 
 (function($) {
 
+
+	var typed = $(".typed");
+
+	  $(function() {
+		typed.typed({
+		  strings: [" Software Developer ", " Machine Learning Engineer "],
+		  typeSpeed: 100,
+		  loop: true,
+		});
+	  });
+
+
 	var	$window = $(window),
 		$body = $('body'),
 		$html = $('html');

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3e5331b-bc0a-490b-a338-88712eb3ea6c" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/web_part/static/resume/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/resume/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web_part/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/templates/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/" />
@@ -23,11 +24,13 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web_part/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="77" column="215" selection-start-line="77" selection-start-column="215" selection-end-line="77" selection-end-column="215" />
+            <state relative-caret-position="320">
+              <caret line="143" column="37" lean-forward="true" selection-start-line="143" selection-start-column="37" selection-end-line="143" selection-end-column="37" />
               <folding>
                 <element signature="e#1367#1408#0#HTML" expanded="true" />
                 <element signature="e#1494#1587#0#HTML" expanded="true" />
+                <element signature="e#1691#1722#0#HTML" expanded="true" />
+                <element signature="e#1858#1891#0#HTML" expanded="true" />
                 <element signature="e#2105#2125#0#HTML" expanded="true" />
                 <element signature="e#2762#2782#0#HTML" expanded="true" />
                 <element signature="e#2946#2977#0#HTML" expanded="true" />
@@ -45,6 +48,27 @@
                 <element signature="e#8599#8654#0#HTML" expanded="true" />
                 <element signature="e#8655#8661#0#HTML" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web_part/static/resume/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="typed.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web_part/static/resume/js/typed.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3328">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
         </entry>
@@ -115,27 +139,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my_website/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1875">
-              <caret line="125" selection-start-line="125" selection-end-line="125" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admin.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hacks_to_code/admin.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -175,6 +178,7 @@
         <option value="$PROJECT_DIR$/hacks_to_code/job_util.py" />
         <option value="$PROJECT_DIR$/web_part/static/resume/css/main.css" />
         <option value="$PROJECT_DIR$/hacks_to_code/templates/home.html" />
+        <option value="$PROJECT_DIR$/web_part/static/resume/js/main.js" />
         <option value="$PROJECT_DIR$/web_part/templates/index.html" />
       </list>
     </option>
@@ -226,6 +230,38 @@
               <item name="static" type="462c0819:PsiDirectoryNode" />
               <item name="home" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="my_website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my_website" type="462c0819:PsiDirectoryNode" />
+              <item name="web_part" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my_website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my_website" type="462c0819:PsiDirectoryNode" />
+              <item name="web_part" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="icons" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my_website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my_website" type="462c0819:PsiDirectoryNode" />
+              <item name="web_part" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="resume" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my_website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my_website" type="462c0819:PsiDirectoryNode" />
+              <item name="web_part" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="resume" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -243,11 +279,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web_part/static/resume/js" />
       <recent name="$PROJECT_DIR$/docs" />
       <recent name="$PROJECT_DIR$/web_part/static/hacks-to-code/css" />
       <recent name="$PROJECT_DIR$/web_part/static/img" />
       <recent name="$PROJECT_DIR$/static/img" />
-      <recent name="$PROJECT_DIR$/hacks_to_code/migrations" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/web_part/static/resume/images" />
@@ -573,8 +609,8 @@
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.3298292" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32506528" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="13" sideWeight="0.49928468" visible="true" weight="0.2860606" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22389127" />
+      <window_info anchor="bottom" id="Terminal" order="13" sideWeight="0.49928468" visible="true" weight="0.2860606" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22389127" />
       <window_info anchor="right" id="R Packages" order="3" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="right" id="R Graphics" order="3" />
@@ -602,23 +638,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/hacks_to_code/templates/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="62" lean-forward="true" selection-start-line="34" selection-start-column="62" selection-end-line="34" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hacks_to_code/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hacks_to_code/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1007,13 +1026,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web_part/static/resume/js/typed.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3328">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_part/static/resume/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web_part/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="77" column="215" selection-start-line="77" selection-start-column="215" selection-end-line="77" selection-end-column="215" />
+        <state relative-caret-position="320">
+          <caret line="143" column="37" lean-forward="true" selection-start-line="143" selection-start-column="37" selection-end-line="143" selection-end-column="37" />
           <folding>
             <element signature="e#1367#1408#0#HTML" expanded="true" />
             <element signature="e#1494#1587#0#HTML" expanded="true" />
+            <element signature="e#1691#1722#0#HTML" expanded="true" />
+            <element signature="e#1858#1891#0#HTML" expanded="true" />
             <element signature="e#2105#2125#0#HTML" expanded="true" />
             <element signature="e#2762#2782#0#HTML" expanded="true" />
             <element signature="e#2946#2977#0#HTML" expanded="true" />
