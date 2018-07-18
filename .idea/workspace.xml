@@ -3,19 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="e3e5331b-bc0a-490b-a338-88712eb3ea6c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hacks_to_code/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/hacks_to_code/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hacks_to_code/templates/my_blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/hacks_to_code/templates/my_blog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/img/Symbol.png" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/img/Symbol.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/img/WSW_.fw_.png" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/img/WSW_.fw_.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/img/comment-processing.png" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/img/comment-processing.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/img/flag.png" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/img/flag.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/img/me.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/img/me.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/img/share-variant.png" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/img/share-variant.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/img/thumb-up-outline.png" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/img/thumb-up-outline.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/hacks_to_code/templates/blog_page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hacks_to_code/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/hacks_to_code/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hacks_to_code/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/hacks_to_code/models.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,12 +22,12 @@
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my_website/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="345">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
               <folding>
                 <element signature="e#634#666#0" expanded="true" />
               </folding>
@@ -48,7 +38,7 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hacks_to_code/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
+            <state relative-caret-position="30">
               <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="15" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
@@ -57,11 +47,65 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hacks_to_code/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" selection-start-line="2" selection-end-line="8" selection-end-column="15" />
+            <state relative-caret-position="285">
+              <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#24#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hacks_to_code/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="155">
+              <caret line="111" lean-forward="true" selection-start-line="111" selection-end-line="111" />
+              <folding>
+                <element signature="e#1#29#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/requirements.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my_website/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1010">
+              <caret line="125" selection-start-line="125" selection-end-line="125" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="manage.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hacks_to_code/admin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="62" column="30" lean-forward="true" selection-start-line="62" selection-start-column="30" selection-end-line="62" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -92,7 +136,6 @@
       <list>
         <option value="$PROJECT_DIR$/web_part/urls.py" />
         <option value="$PROJECT_DIR$/templates/index.html" />
-        <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/web_part/models.py" />
         <option value="$PROJECT_DIR$/my_website/hacks_to_code/models.py" />
         <option value="$PROJECT_DIR$/web_part/views.py" />
@@ -100,8 +143,6 @@
         <option value="$PROJECT_DIR$/hacks_to_code/views.py" />
         <option value="$PROJECT_DIR$/my_website/urls.py" />
         <option value="$PROJECT_DIR$/my_website/settings.py" />
-        <option value="$PROJECT_DIR$/hacks_to_code/models.py" />
-        <option value="$PROJECT_DIR$/hacks_to_code/admin.py" />
         <option value="$PROJECT_DIR$/hacks_to_code/job_util.py" />
         <option value="$PROJECT_DIR$/web_part/static/resume/css/main.css" />
         <option value="$PROJECT_DIR$/web_part/static/resume/js/main.js" />
@@ -109,6 +150,9 @@
         <option value="$PROJECT_DIR$/hacks_to_code/templates/home.html" />
         <option value="$PROJECT_DIR$/hacks_to_code/templates/my_blog.html" />
         <option value="$PROJECT_DIR$/web_part/static/hacks-to-code/js/my_tinymce.js" />
+        <option value="$PROJECT_DIR$/hacks_to_code/admin.py" />
+        <option value="$PROJECT_DIR$/hacks_to_code/models.py" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
       </list>
     </option>
   </component>
@@ -148,7 +192,24 @@
             <path>
               <item name="my_website" type="b2602c69:ProjectViewProjectNode" />
               <item name="my_website" type="462c0819:PsiDirectoryNode" />
+              <item name="hacks_to_code" type="462c0819:PsiDirectoryNode" />
+              <item name="migrations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my_website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my_website" type="462c0819:PsiDirectoryNode" />
+              <item name="my_website" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my_website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my_website" type="462c0819:PsiDirectoryNode" />
               <item name="web_part" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my_website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my_website" type="462c0819:PsiDirectoryNode" />
+              <item name="web_part" type="462c0819:PsiDirectoryNode" />
+              <item name="migrations" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -494,19 +555,19 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3298292" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5007153" side_tool="true" weight="0.31011826" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32506528" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.3298292" />
-      <window_info anchor="bottom" id="Terminal" order="13" sideWeight="0.49928468" visible="true" weight="0.31011826" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27310574" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32506528" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="13" sideWeight="0.49928468" visible="true" weight="0.31011826" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28143215" />
       <window_info anchor="right" id="R Packages" order="3" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="right" id="R Graphics" order="3" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Salesforce" order="12" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -720,13 +781,6 @@
         <state relative-caret-position="-167" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/manage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my_website/hacks_to_code/urls.py" />
     <entry file="file://$PROJECT_DIR$/web_part/migrations/0001_initial.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -747,31 +801,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my_website/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1875">
-          <caret line="125" selection-start-line="125" selection-end-line="125" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hacks_to_code/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web_part/static/resume/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="139">
           <caret line="2320" column="21" selection-start-line="2320" selection-start-column="21" selection-end-line="2320" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
@@ -822,13 +855,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hacks_to_code/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="43" column="41" selection-start-line="43" selection-start-column="41" selection-end-line="43" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web_part/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -838,8 +864,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/my_website/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="345">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
           <folding>
             <element signature="e#634#666#0" expanded="true" />
           </folding>
@@ -848,7 +874,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hacks_to_code/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
+        <state relative-caret-position="30">
           <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="15" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
@@ -856,10 +882,60 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web_part/models.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/hacks_to_code/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="8" selection-end-column="15" />
+        <state relative-caret-position="285">
+          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hacks_to_code/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="62" column="30" lean-forward="true" selection-start-line="62" selection-start-column="30" selection-end-line="62" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hacks_to_code/migrations/0004_auto_20180718_0415.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_website/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1010">
+          <caret line="125" selection-start-line="125" selection-end-line="125" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hacks_to_code/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="111" lean-forward="true" selection-start-line="111" selection-end-line="111" />
+          <folding>
+            <element signature="e#1#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
