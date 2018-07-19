@@ -14,4 +14,10 @@ urlpatterns = (
     path(r'my-blog',
          views.view_my_blog,
          name='view_my_blog'),
+
+# homepage/ splash page
+    #
+    path(r'write-my-blog',
+         views.view_write_my_blog,
+         name='view_write_my_blog'),
 )

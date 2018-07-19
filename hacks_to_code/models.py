@@ -21,7 +21,7 @@ class UserProfile(TimeStampedModel):
     user_Id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
     profile_pic = models.ImageField(upload_to='profile_pic', blank=True)
     followers = jsonfield.JSONField(default=None,
-                                    blank=False,
+                                    blank=True,
                                     load_kwargs=dict(object_pairs_hook=OrderedDict)) # contains list of user ID's
     followers_count = models.IntegerField(default=0, blank=True)
     about_me = models.TextField(blank=True, max_length=500)
@@ -59,11 +59,31 @@ class UserProfile(TimeStampedModel):
 
         return od
 
+    def get_all_objects(self):
+        """return all objects"""
+        result = UserProfile.objects.all()
+
+        if not result:
+            return err_resp('could not get the object list as %s' % result)
+        else:
+            return ok_resp(result)
+
+
+    def get_objects_by_username(self, username):
+        """return object by id"""
+        result = UserProfile.objects.filter(username=username).first()
+
+        if not result:
+            return err_resp('could not get the object for id %s' % username)
+
+        else:
+            return ok_resp(result)
+
 
 
 class ListTopicsModels(TimeStampedModel):
     """ class to keep record of all the models"""
-    name = models.CharField(blank=False,max_length=255)
+    name = models.CharField(blank=False, unique=True, max_length=255)
     description = models.TextField(blank=True)
     username = models.CharField(blank=False,
                                 max_length=255)
@@ -109,6 +129,28 @@ class ListTopicsModels(TimeStampedModel):
                 return err_resp('could not get the object list as %s' % result)
             else:
                 return ok_resp(result)
+
+
+
+    def get_all_objects(self):
+        """return all objects"""
+        result = UserProfile.objects.all()
+
+        if not result:
+            return err_resp('could not get the object list as %s' % result)
+        else:
+            return ok_resp(result)
+
+
+    def get_objects_by_name(self, name):
+        """return object by id"""
+        result = UserProfile.objects.filter(name=name).first()
+
+        if not result:
+            return err_resp('could not get the object for id %s' % name)
+
+        else:
+            return ok_resp(result)
 
 
 class BlogDescriptionModel(TimeStampedModel):
@@ -166,6 +208,29 @@ class BlogDescriptionModel(TimeStampedModel):
             else:
                 return ok_resp(result)
 
+    def get_all_objects(self):
+        """return all objects"""
+        result = UserProfile.objects.all()
+
+        if not result:
+            return err_resp('could not get the object list as %s' % result)
+        else:
+            return ok_resp(result)
+
+
+    def get_objects_by_topic_id(self, topic_id):
+        """return object by id"""
+        result = UserProfile.objects.filter(topic_id=topic_id).first()
+
+        if not result:
+            return err_resp('could not get the object for id %s' % topic_id)
+
+        else:
+            return ok_resp(result)
+
+
+
+
 
 class Blog(TimeStampedModel):
     """ blog content"""
@@ -173,14 +238,14 @@ class Blog(TimeStampedModel):
     blog_image = models.ImageField(upload_to='blog_image', blank=True)
     likes_count = models.IntegerField(blank=True, default=0)
     comments = jsonfield.JSONField(default=None,
-                                    blank=False,
-                                    load_kwargs=dict(object_pairs_hook=OrderedDict))
+                                   blank=True,
+                                   load_kwargs=dict(object_pairs_hook=OrderedDict))
     flags = jsonfield.JSONField(default=None,
-                                    blank=False,
-                                    load_kwargs=dict(object_pairs_hook=OrderedDict))
+                                blank=True,
+                                load_kwargs=dict(object_pairs_hook=OrderedDict))
     tags = jsonfield.JSONField(default=None,
-                                blank=False,
-                                    load_kwargs=dict(object_pairs_hook=OrderedDict))
+                               blank=False,
+                               load_kwargs=dict(object_pairs_hook=OrderedDict))
     tinymce = models.TextField(blank=False, max_length=4000)
     created = models.DateTimeField(auto_now_add=True)
     modified = models.DateTimeField(auto_now_add=True)
@@ -218,5 +283,23 @@ class Blog(TimeStampedModel):
 
         return od
 
+    def get_all_objects(self):
+        """return all objects"""
+        result = UserProfile.objects.all()
+
+        if not result:
+            return err_resp('could not get the object list as %s' % result)
+        else:
+            return ok_resp(result)
+
+    def get_objects_by_topic_id(self, topic_id):
+        """return object by id"""
+        result = UserProfile.objects.filter(topic_id=topic_id).first()
+
+        if not result:
+            return err_resp('could not get the object for id %s' % topic_id)
+
+        else:
+            return ok_resp(result)
 
 

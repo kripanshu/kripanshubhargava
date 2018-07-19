@@ -18,3 +18,7 @@ def view_homepage(request):
 def view_my_blog(request):
     """Opens the homepage/resume"""
     return render(request, 'my_blog.html')
+
+def view_write_my_blog(request):
+    """ write the blog"""
+    return render(request,'write_blog.html')
