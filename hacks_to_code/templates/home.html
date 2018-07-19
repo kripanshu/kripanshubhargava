@@ -30,7 +30,11 @@
          Hacks To Code
          </a>
           <ul class="nav navbar-nav navbar-right">
-       <a class="d-inline-block align-top" href="write_blog.html"><i class="material-icons" style="margin-top: 12px" >create</i></a>
+       <a class="d-inline-block align-top" href="{% url 'view_write_my_blog' %}"><i class="material-icons" style="margin-top: 12px" >create</i></a>
+    </ul>
+          <ul class="nav navbar-nav navbar-right">
+       <h6>{{ message.name }}</h6>
+              <img src={{  }} style="width: 20px; height: 20px">
     </ul>
       </nav>
       {# Nav bar to be loaded with topics  #}
