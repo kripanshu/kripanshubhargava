@@ -47,3 +47,6 @@ python manage.py check
 # ------------------------
 python manage.py runserver
 ```
+
+# help URLs 
+https://simpleisbetterthancomplex.com/tutorial/2016/07/26/how-to-reset-migrations.html

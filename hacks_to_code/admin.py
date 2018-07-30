@@ -5,6 +5,7 @@ from hacks_to_code.models import ( ListTopicsModels, BlogDescriptionModel, UserP
 
 class ListTopicsModelsAdmin(admin.ModelAdmin):
     list_display = ('id',
+                    'topic_id',
                     'name',
                     'description',
                     'username',
@@ -21,10 +22,11 @@ admin.site.register(ListTopicsModels, ListTopicsModelsAdmin)
 
 
 class BlogDescriptionModelAdmin(admin.ModelAdmin):
-    list_display = ('topic_id',
+    list_display = ('id',
+                    'topic_id',
+                    'blog_id',
                     'name',
                     'description',
-                    'topic',
                     'user_Id',
                     'created',
                     'modified',
@@ -40,7 +42,8 @@ admin.site.register(BlogDescriptionModel, BlogDescriptionModelAdmin)
 
 
 class BlogAdmin(admin.ModelAdmin):
-    list_display = ('topic_id',
+    list_display = ('id',
+                    'blog_id',
                     'blog_image',
                     'tinymce',
                     'tags',
@@ -48,17 +51,17 @@ class BlogAdmin(admin.ModelAdmin):
                     'flags',
                     'likes_count',
                     'created',
-                    'modified',
-                    'is_published'
+                    'modified'
                     )
     save_on_top = True
     readonly_fields = ('modified', 'created')
-    list_filter = ('is_published',)
+
 
 admin.site.register(Blog, BlogAdmin)
 
 class UserProfileAdmin(admin.ModelAdmin):
-    list_display = ('name',
+    list_display = ('id',
+                    'name',
                     'username',
                     'user_Id',
                     'about_me',
