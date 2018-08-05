@@ -12,13 +12,13 @@ class JobUtil(object):
     """ this is the utility class for view"""
 
     @staticmethod
-    def get_user_details():
+    def get_user_details(id):
         """This is to get user details
         ** for now user authentication is not done is users
         are manually added.
         """
         user_obj = UserProfile()
-        success, obj = user_obj.get_objects_by_username('kripanshu')
+        success, obj = user_obj.get_objects_by_id(id)
 
         if success:
             return ok_resp(obj)
@@ -66,3 +66,56 @@ class JobUtil(object):
         else:
             return err_resp(blog_obj)
 
+    @staticmethod
+    def add_blog(my_id, **data):
+        """add the blog"""
+        print('data we get Blog des id ---------', my_id)
+        print('data we get from form', data)
+        blog_id = BlogDescriptionModel.objects.get(id=my_id)
+        print("blog_id instance we get", blog_id)
+        # if not success:
+        #     return err_resp(blog_id)
+        # print('blog_id', blog_id)
+        #
+        # input_data = dict(blog_id=blog_id,user_Id=data.get('user_Id'),
+        #                 blog_image=data.get('blog_image'),
+        #                 tags=data.get('tags'),
+        #                 tinymce=data.get('tinymce'))
+        blog_obj = Blog(blog_id=blog_id, **data)
+        blog_obj.save()
+
+        if blog_obj.id:
+            return ok_resp(blog_obj)
+
+        else:
+            return err_resp(blog_obj)
+
+    @staticmethod
+    def delete_blog_desc(blog_id):
+        """ delete blog desc model"""
+        success, blog_del = BlogDescriptionModel.delete_blog_description(blog_id)
+
+        if success:
+            return ok_resp(blog_del)
+        else:
+            return err_resp(blog_del)
+
+    @staticmethod
+    def get_blog_data(blog_id):
+        """ get the blog"""
+        obj = Blog()
+        success, blog_data = obj.get_objects_by_blog_id(blog_id)
+
+        if not success:
+            return err_resp(blog_data)
+
+        return ok_resp(blog_data)
+
+    @staticmethod
+    def get_blog_description(blog_id):
+        obj = BlogDescriptionModel()
+        success, blog_des_data = obj.get_objects_by_blog_id(blog_id)
+        if not success:
+            return err_resp(blog_des_data)
+        print(" topic_data ---", blog_des_data)
+        return ok_resp(blog_des_data)

@@ -2,40 +2,115 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3e5331b-bc0a-490b-a338-88712eb3ea6c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/hacks_to_code/storage/backup/back.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hacks_to_code/storage/backup/htc_icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hacks_to_code/storage/backup/meicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/css/bootstrap-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/css/bootstrap-theme.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/css/bootstrap-theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/css/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/css/app.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/css/foundation.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/highlight.pack.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/js/app.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/js/vendor/foundation.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/js/vendor/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/js/vendor/what-input.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/agate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/androidstudio.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/arduino-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/arta.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/ascetic.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/atelier-cave-dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/atelier-cave-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/atelier-dune-dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/atelier-dune-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/atelier-estuary-dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/atelier-estuary-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/atelier-forest-dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/atelier-forest-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/atelier-heath-dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/atelier-heath-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/atelier-lakeside-dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/atelier-lakeside-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/atelier-plateau-dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/atelier-plateau-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/atelier-savanna-dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/atelier-savanna-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/atelier-seaside-dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/atelier-seaside-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/atelier-sulphurpool-dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/atelier-sulphurpool-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/atom-one-dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/atom-one-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/brown-paper.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/brown-papersq.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/codepen-embed.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/color-brewer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/darcula.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/darkula.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/docco.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/dracula.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/far.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/foundation.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/github-gist.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/github.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/googlecode.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/grayscale.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/gruvbox-dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/gruvbox-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/hopscotch.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/hybrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/idea.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/ir-black.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/kimbie.dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/kimbie.light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/magula.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/mono-blue.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/monokai-sublime.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/monokai.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/obsidian.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/ocean.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/paraiso-dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/paraiso-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/pojoaque.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/pojoaque.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/purebasic.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/qtcreator_dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/qtcreator_light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/railscasts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/rainbow.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/routeros.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/school-book.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/school-book.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/solarized-dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/solarized-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/sunburst.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/tomorrow-night-blue.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/tomorrow-night-bright.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/tomorrow-night-eighties.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/tomorrow-night.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/tomorrow.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/vs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/vs2015.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/xcode.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/xt256.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/zenburn.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/my_website.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/my_website.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hacks_to_code/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/hacks_to_code/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hacks_to_code/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/hacks_to_code/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hacks_to_code/hacks_to_code_constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/hacks_to_code/hacks_to_code_constants.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hacks_to_code/job_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/hacks_to_code/job_util.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hacks_to_code/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hacks_to_code/migrations/0002_auto_20180708_2028.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hacks_to_code/migrations/0003_auto_20180708_2044.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hacks_to_code/migrations/0004_auto_20180718_0426.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hacks_to_code/migrations/0005_auto_20180718_1739.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hacks_to_code/migrations/0006_auto_20180718_1754.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/hacks_to_code/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/hacks_to_code/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hacks_to_code/storage/profile_pic/fullsizeoutput_1104.png" beforeDir="false" afterPath="$PROJECT_DIR$/hacks_to_code/storage/profile_pic/fullsizeoutput_1104.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hacks_to_code/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/hacks_to_code/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hacks_to_code/templates/my_blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/hacks_to_code/templates/my_blog.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hacks_to_code/templates/write_blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/hacks_to_code/templates/write_blog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hacks_to_code/templates/write_blog_description.html" beforeDir="false" afterPath="$PROJECT_DIR$/hacks_to_code/templates/write_blog_description.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hacks_to_code/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/hacks_to_code/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hacks_to_code/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/hacks_to_code/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my_website/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_website/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_website/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_website/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/migrations/0002_auto_20180706_0409.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/css/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/css/bootstrap.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/css/bootstrap.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/css/bootstrap.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/js/bootstrap.min.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,8 +131,8 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hacks_to_code/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+            <state relative-caret-position="248">
+              <caret line="25" column="27" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="27" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
               </folding>
@@ -68,8 +143,8 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hacks_to_code/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-584">
-              <caret line="44" column="63" lean-forward="true" selection-start-line="44" selection-start-column="63" selection-end-line="44" selection-end-column="63" />
+            <state relative-caret-position="645">
+              <caret line="43" column="24" lean-forward="true" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
               </folding>
@@ -80,8 +155,46 @@
       <file leaf-file-name="write_blog.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hacks_to_code/templates/write_blog.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+            <state relative-caret-position="303">
+              <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hacks_to_code/templates/home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="my_blog.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hacks_to_code/templates/my_blog.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="199">
+              <caret line="75" column="16" lean-forward="true" selection-start-line="75" selection-start-column="16" selection-end-line="75" selection-end-column="16" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h2#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/hacks_to_code/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="275" column="87" selection-start-line="275" selection-start-column="87" selection-end-line="275" selection-end-column="87" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -89,36 +202,17 @@
       <file leaf-file-name="admin.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hacks_to_code/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="38" column="20" lean-forward="true" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="210">
+              <caret line="46" column="33" selection-start-line="46" selection-start-column="33" selection-end-line="46" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/hacks_to_code/templates/home.html">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my_website/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="81" column="117" selection-start-line="81" selection-start-column="117" selection-end-line="81" selection-end-column="117" />
-              <folding>
-                <element signature="n#style#0;n#img#0;n#ul#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hacks_to_code/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="15" column="38" lean-forward="true" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+            <state relative-caret-position="285">
+              <caret line="150" column="51" lean-forward="true" selection-start-line="150" selection-start-column="51" selection-end-line="150" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -126,8 +220,8 @@
       <file leaf-file-name="forms.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hacks_to_code/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
+            <state relative-caret-position="252">
+              <caret line="96" column="20" lean-forward="true" selection-start-line="91" selection-start-column="6" selection-end-line="96" selection-end-column="20" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -138,8 +232,8 @@
       <file leaf-file-name="job_util.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hacks_to_code/job_util.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="945">
-              <caret line="63" column="46" lean-forward="true" selection-start-line="63" selection-start-column="46" selection-end-line="63" selection-end-column="46" />
+            <state relative-caret-position="324">
+              <caret line="121" selection-start-line="121" selection-end-line="121" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -167,6 +261,11 @@
       <find>hacks_to_code_blog</find>
       <find>topic_id</find>
       <find>get_blog_list_by_id</find>
+      <find>-------u ser ID----</find>
+      <find>view_write_blog_details</find>
+      <find>view_write_my_blog</find>
+      <find>view_my_blog</find>
+      <find>view_homepage_blog_list</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -180,28 +279,29 @@
         <option value="$PROJECT_DIR$/web_part/models.py" />
         <option value="$PROJECT_DIR$/my_website/hacks_to_code/models.py" />
         <option value="$PROJECT_DIR$/web_part/views.py" />
-        <option value="$PROJECT_DIR$/my_website/urls.py" />
         <option value="$PROJECT_DIR$/web_part/static/resume/css/main.css" />
         <option value="$PROJECT_DIR$/web_part/static/resume/js/main.js" />
         <option value="$PROJECT_DIR$/web_part/templates/index.html" />
         <option value="$PROJECT_DIR$/web_part/static/hacks-to-code/js/my_tinymce.js" />
         <option value="$PROJECT_DIR$/hacks_to_code/templates/error_page.html" />
-        <option value="$PROJECT_DIR$/hacks_to_code/templates/my_blog.html" />
-        <option value="$PROJECT_DIR$/hacks_to_code/hacks_to_code_constants.py" />
-        <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/my_website/settings.py" />
-        <option value="$PROJECT_DIR$/hacks_to_code/urls.py" />
         <option value="$PROJECT_DIR$/hacks_to_code/templates/blog_description.html" />
+        <option value="$PROJECT_DIR$/hacks_to_code/migrations/0009_auto_20180730_0309.py" />
+        <option value="$PROJECT_DIR$/hacks_to_code/hacks_to_code_constants.py" />
         <option value="$PROJECT_DIR$/hacks_to_code/templates/write_blog_description.html" />
-        <option value="$PROJECT_DIR$/hacks_to_code/templates/write_blog.html" />
-        <option value="$PROJECT_DIR$/hacks_to_code/job_util.py" />
-        <option value="$PROJECT_DIR$/hacks_to_code/forms.py" />
+        <option value="$PROJECT_DIR$/hacks_to_code/urls.py" />
+        <option value="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/get_data.js" />
         <option value="$PROJECT_DIR$/hacks_to_code/admin.py" />
+        <option value="$PROJECT_DIR$/my_website/urls.py" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/hacks_to_code/job_util.py" />
+        <option value="$PROJECT_DIR$/hacks_to_code/templates/home.html" />
+        <option value="$PROJECT_DIR$/my_website/settings.py" />
+        <option value="$PROJECT_DIR$/hacks_to_code/templates/my_blog.html" />
+        <option value="$PROJECT_DIR$/hacks_to_code/forms.py" />
+        <option value="$PROJECT_DIR$/hacks_to_code/templates/write_blog.html" />
         <option value="$PROJECT_DIR$/hacks_to_code/views.py" />
         <option value="$PROJECT_DIR$/hacks_to_code/models.py" />
-        <option value="$PROJECT_DIR$/hacks_to_code/migrations/0009_auto_20180730_0309.py" />
-        <option value="$PROJECT_DIR$/hacks_to_code/templates/home.html" />
       </list>
     </option>
   </component>
@@ -215,10 +315,9 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="22" />
-    <option name="y" value="22" />
-    <option name="width" value="1400" />
-    <option name="height" value="878" />
+    <option name="x" value="39" />
+    <option name="width" value="1401" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -226,7 +325,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -242,24 +340,46 @@
             <path>
               <item name="my_website" type="b2602c69:ProjectViewProjectNode" />
               <item name="my_website" type="462c0819:PsiDirectoryNode" />
-              <item name="hacks_to_code" type="462c0819:PsiDirectoryNode" />
-              <item name="migrations" type="462c0819:PsiDirectoryNode" />
+              <item name="my_website" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="my_website" type="b2602c69:ProjectViewProjectNode" />
               <item name="my_website" type="462c0819:PsiDirectoryNode" />
-              <item name="hacks_to_code" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="web_part" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="my_website" type="b2602c69:ProjectViewProjectNode" />
               <item name="my_website" type="462c0819:PsiDirectoryNode" />
+              <item name="web_part" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my_website" type="b2602c69:ProjectViewProjectNode" />
               <item name="my_website" type="462c0819:PsiDirectoryNode" />
+              <item name="web_part" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="hacks-to-code" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my_website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my_website" type="462c0819:PsiDirectoryNode" />
+              <item name="web_part" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my_website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my_website" type="462c0819:PsiDirectoryNode" />
+              <item name="web_part" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -270,7 +390,7 @@
     <property name="last.edited.regexp" value="1" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -281,11 +401,11 @@
       <recent name="$PROJECT_DIR$/web_part/static/resume/images" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce" />
+      <recent name="$PROJECT_DIR$/web_part/static/hacks-to-code" />
       <recent name="$PROJECT_DIR$/hacks_to_code/storage/backup" />
       <recent name="$PROJECT_DIR$/web_part/static/hacks-to-code/js" />
       <recent name="$PROJECT_DIR$/web_part/static/hacks-to-code/css" />
-      <recent name="$PROJECT_DIR$/hacks_to_code/storage/profile_pic" />
-      <recent name="$PROJECT_DIR$/web_part/static/resume/js" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -595,22 +715,21 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="22" y="22" width="1400" height="878" extended-state="0" />
+    <frame x="39" y="0" width="1401" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3298292" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5007153" side_tool="true" weight="0.31011826" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50143063" side_tool="true" weight="0.41575757" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32506528" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Python Console" order="11" weight="0.3298292" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="15" sideWeight="0.49928468" visible="true" weight="0.43918052" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27393225" />
+      <window_info anchor="bottom" id="Terminal" order="15" sideWeight="0.4985694" visible="true" weight="0.4271482" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28844738" />
       <window_info anchor="right" id="R Packages" order="6" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="right" id="R Graphics" order="4" />
       <window_info anchor="right" id="Database" order="5" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3277849" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
@@ -624,6 +743,7 @@
       <window_info anchor="bottom" id="Execute Anonymous" order="13" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3277849" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -633,6 +753,83 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/hacks_to_code/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="92" selection-start-line="5" selection-start-column="66" selection-end-line="5" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_website/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="23" column="35" lean-forward="true" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hacks_to_code/job_util.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1170">
+          <caret line="85" column="19" selection-start-line="85" selection-start-column="19" selection-end-line="85" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hacks_to_code/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1065">
+          <caret line="82" column="37" lean-forward="true" selection-start-line="82" selection-start-column="37" selection-end-line="82" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hacks_to_code/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="15" column="38" lean-forward="true" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hacks_to_code/templates/blog_description.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hacks_to_code/templates/my_blog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="6" lean-forward="true" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hacks_to_code/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hacks_to_code/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hacks_to_code/templates/base.html" />
+    <entry file="file://$PROJECT_DIR$/hacks_to_code/templates/write_blog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/my_website/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1860">
@@ -712,13 +909,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my_website/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -733,62 +923,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hacks_to_code/templates/my_blog.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_part/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_website/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hacks_to_code/hacks_to_code_constants.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hacks_to_code/migrations/0013_merge_20180726_1940.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hacks_to_code/migrations/0012_remove_blogdescriptionmodel_topic_id.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hacks_to_code/migrations/0011_auto_20180726_1930.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hacks_to_code/migrations/0009_auto_20180722_0440.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hacks_to_code/migrations/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hacks_to_code/migrations/0002_auto_20180726_1938.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/hacks_to_code/migrations/0001_initial.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="e#49#89#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -816,19 +954,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web_part/static/home/img/icons/icon_behance.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_part/static/home/img/account.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_website/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="112" column="15" lean-forward="true" selection-start-line="112" selection-start-column="15" selection-end-line="112" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hacks_to_code/templates/blog_description.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -836,120 +961,159 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/hacks_to_code/hacks_to_code_constants.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/hacks_to_code/templates/write_blog_description.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="45" column="7" lean-forward="true" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/langs/readme.md" />
+    <entry file="file://$PROJECT_DIR$/web_part/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/get_data.js" />
+    <entry file="file://$PROJECT_DIR$/web_part/admin.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/init-tinymce.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_website/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/css/app.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_part/views.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="14" selection-start-column="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hacks_to_code/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hacks_to_code/job_util.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
-          <caret line="63" column="46" lean-forward="true" selection-start-line="63" selection-start-column="46" selection-end-line="63" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hacks_to_code/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hacks_to_code/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="38" column="20" lean-forward="true" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hacks_to_code/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-584">
-          <caret line="44" column="63" lean-forward="true" selection-start-line="44" selection-start-column="63" selection-end-line="44" selection-end-column="63" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web_part/static/hacks-to-code/img/Symbol.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_part/static/hacks-to-code/img/share-variant.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_part/static/hacks-to-code/img/me.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_part/static/hacks-to-code/img/comment-processing.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_part/static/hacks-to-code/img/WSW_.fw_.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_part/static/home/img/htc_icon.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_part/static/home/img/certi.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_part/static/home/img/back.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_part/static/home/img/meicon.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hacks_to_code/storage/topic_image/pythonIcon_g6kbyod.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hacks_to_code/models.py">
+    <entry file="file://$PROJECT_DIR$/hacks_to_code/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="15" column="38" lean-forward="true" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+        <state relative-caret-position="248">
+          <caret line="25" column="27" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hacks_to_code/migrations/0009_auto_20180730_0309.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hacks_to_code/templates/write_blog.html">
+    <entry file="file://$PROJECT_DIR$/hacks_to_code/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+        <state relative-caret-position="210">
+          <caret line="46" column="33" selection-start-line="46" selection-start-column="33" selection-end-line="46" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_part/static/home/img/account.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hacks_to_code/storage/profile_pic/144815b3-623e-44bc-8f38-a34ba9eb5f57.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hacks_to_code/job_util.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="121" selection-start-line="121" selection-end-line="121" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_website/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="150" column="51" lean-forward="true" selection-start-line="150" selection-start-column="51" selection-end-line="150" selection-end-column="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hacks_to_code/templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="81" column="117" selection-start-line="81" selection-start-column="117" selection-end-line="81" selection-end-column="117" />
+        <state relative-caret-position="234">
+          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hacks_to_code/templates/my_blog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="75" column="16" lean-forward="true" selection-start-line="75" selection-start-column="16" selection-end-line="75" selection-end-column="16" />
           <folding>
-            <element signature="n#style#0;n#img#0;n#ul#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hacks_to_code/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="96" column="20" lean-forward="true" selection-start-line="91" selection-start-column="6" selection-end-line="96" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hacks_to_code/templates/write_blog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hacks_to_code/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="43" column="24" lean-forward="true" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hacks_to_code/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="275" column="87" selection-start-line="275" selection-start-column="87" selection-end-line="275" selection-end-column="87" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>

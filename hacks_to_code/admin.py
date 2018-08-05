@@ -51,7 +51,8 @@ class BlogAdmin(admin.ModelAdmin):
                     'flags',
                     'likes_count',
                     'created',
-                    'modified'
+                    'modified',
+                    'user_Id'
                     )
     save_on_top = True
     readonly_fields = ('modified', 'created')

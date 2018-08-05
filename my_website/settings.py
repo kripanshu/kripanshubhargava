@@ -11,7 +11,6 @@ https://docs.djangoproject.com/en/2.0/ref/settings/
 """
 
 import os
-
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -39,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'web_part',
     'hacks_to_code',
+    'tinymce',
 ]
 
 MIDDLEWARE = [
@@ -123,3 +123,45 @@ USE_TZ = True
 STATIC_URL = '/static/'
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'hacks_to_code/storage')
+
+
+TINYMCE_DEFAULT_CONFIG = {
+    'height': 360,
+    'width': 1120,
+    'cleanup_on_startup': True,
+    'custom_undo_redo_levels': 20,
+    'selector': 'textarea',
+    'theme': 'modern',
+    'plugins': '''
+            textcolor save link image media preview codesample contextmenu
+            table code lists fullscreen  insertdatetime  nonbreaking
+            contextmenu directionality searchreplace wordcount visualblocks
+            visualchars code fullscreen autolink lists  charmap print  hr
+            anchor pagebreak
+            ''',
+    'codesample_languages': [
+                 {'text': 'HTML/XML', 'value': 'markup'},
+                 {'text': 'JavaScript', 'value': 'javascript'},
+                 {'text': 'CSS', 'value': 'css'},
+                 {'text': 'PHP', 'value': 'php'},
+                 {'text': 'Ruby', 'value': 'ruby'},
+                 {'text': 'Python', 'value': 'python'},
+                 {'text': 'Java', 'value': 'java'},
+                 {'text': 'C', 'value': 'c'},
+                 {'text': 'C#', 'value': 'csharp'},
+                 {'text': 'C++', 'value': 'cpp'}
+	                         ],
+    'toolbar1': '''
+            fullscreen preview bold italic underline | fontselect,
+            fontsizeselect  | forecolor backcolor | alignleft alignright |
+            aligncenter alignjustify | indent outdent | bullist numlist table |
+            | link image media | codesample |
+            ''',
+    'toolbar2': '''
+            visualblocks visualchars |
+            charmap hr pagebreak nonbreaking anchor |  code |
+            ''',
+    'contextmenu': 'formats | link image',
+    'menubar': True,
+    'statusbar': True,
+    }

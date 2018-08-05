@@ -18,37 +18,61 @@ def view_homepage(request):
     """Opens the homepage/resume"""
     return view_homepage_blog_list(request,'sl001')
 
-def view_my_blog(request):
-    """Opens the blog homepage page"""
-    success, user_detail = JobUtil.get_user_details()
-
-    if not success:
-        user_msg = {'error': 'Not Found',
-                    'message': user_detail}
-        return render(request,'error_page.html',user_msg)
-    user_msg = {'success': True,
-                           'message': user_detail}
-    return render(request, 'my_blog.html', user_msg)
-
-def get_form_data(request):
-    """get data from the form"""
 
 def view_write_blog_details(request):
     """ write the blog"""
-    form = BlogDescriptionForms(request.POST or None)
 
-    if form.is_valid():
-        data = dict(name=form.get_cleaned_name(),
-                    topic_id=form.get_cleaned_topic_id(),
-                    topic_image=form.get_cleaned_topic_image(),
-                    user_Id=form.get_cleaned_user_id(),
-                    description=form.get_cleaned_description(),
-                    is_published=form.get_cleaned_published())
-        success, blog_desc = JobUtil.add_blog_description(**data)
-        if not success:
-            return JsonResponse({'success': False})
+    if request.method == 'POST':
+        # this form contains field for both the models BlogDescriptionModel, Blog
+        form = BlogDescriptionForms(request.POST, request.FILES)
 
-        return render(request,'write_blog_description.html', {'data': blog_desc})
+        if form.is_valid():
+
+            # we get values for the BlogDescriptionModel
+
+            blog_desc_data = dict(name=form.get_cleaned_name(),
+                                  topic_id=form.get_cleaned_topic_id(),
+                                  topic_image=form.get_cleaned_topic_image(),
+                                  user_Id=form.get_cleaned_user_id(),
+                                  description=form.get_cleaned_description(),
+                                  is_published=False    # It is False and will be made
+                                                        # published by the admin till the auth
+                                  )
+
+            # save to BlogDescriptionModel
+            succ, blog_des = JobUtil.add_blog_description(**blog_desc_data)
+            if not succ:
+                return JsonResponse({'success': False, 'message': blog_des})
+
+            # blog_id = blog_des['blog_id']   # this must be a "BlogDescriptionModel" instance.
+            my_id = blog_des['id']
+            # we get values for the Blog
+
+            blog_data = dict(user_Id=form.get_cleaned_user_id(),
+                        blog_image=form.get_cleaned_blog_image(),
+                        tags=form.get_cleaned_tags(),
+                        tinymce=form.get_cleaned_tinymce()
+                             )
+
+            # save to Blog
+            print('data_first', blog_desc_data.get('name'))
+            print('data_second', blog_data.get('tinymce'))
+            succ, blog = JobUtil.add_blog(my_id, **blog_data)
+            if not succ:
+                return JsonResponse({'success': False, 'message': blog})
+            # print('data sent to blog', blog_des)
+            # return view_write_blog(request, blog_des)
+            user_obj = dict(success=True,
+                            blog_data=blog.as_dict(),
+                            blog_desc_data=blog_des)
+            # return render(request,'my_blog.html',{'blog_data':blog.as_dict(),'blog_desc_data':blog_des})
+            return HttpResponseRedirect('/hacks_to_code/home')
+        else:
+            # if form is not valid
+            return JsonResponse(form.errors)
+    else:
+        form = BlogDescriptionForms()
+        #   return JsonResponse({'errors':form.errors})
 
     return render(request, 'write_blog.html', {'form': form})
 
@@ -60,11 +84,11 @@ def view_homepage_blog_list(request, topic_id):
         print('topic _ id ---------', topic_id)
         topic_id = topic_id
 
-    success_user, user_detail = JobUtil.get_user_details()
+    success_user, user_detail = JobUtil.get_user_details(1)
     success_topic_list, topic_list = JobUtil.get_topics_details()
     success_topic, topic = JobUtil.get_blog_list_by_id(topic_id)
 
-    # print("url ",user_detail.profile_pic.url)
+    print("url ",user_detail.profile_pic.url)
     if not success_topic_list:
         user_msg = {
                     'success_list': False,
@@ -102,3 +126,45 @@ def view_homepage_blog_list(request, topic_id):
                 }
     print("topic list ",topic)
     return render(request, 'home.html', user_msg)
+
+
+def view_my_blog(request, blog_id):
+    """view my blog"""
+    print('--'*40)
+    print(blog_id)
+    print('--' * 40)
+    success_blog, blog_details = JobUtil.get_blog_data(blog_id)
+    if not success_blog:
+        user_msg = dict(success=False,
+                        error=blog_details)
+        return JsonResponse(user_msg)
+    print('--' * 40)
+    print(blog_details.as_dict())
+    print('--' * 40)
+
+    tags = blog_details.tags.split(",")
+
+
+    print('--' * 40)
+    print(tags)
+    print('--' * 40)
+
+
+    success_user, user_details = JobUtil.get_user_details(blog_details.as_dict()['user_Id_id'])
+    if not success_user:
+        user_msg = dict(success=False,
+                        error=user_details)
+        return JsonResponse(user_msg)
+    print('--' * 40)
+    print(user_details.as_dict())
+    print('--' * 40)
+    success_topic, topic_data = JobUtil.get_blog_description(blog_id)
+    if not success_topic:
+        user_msg = dict(success=False,
+                        error=topic_data)
+        return JsonResponse(user_msg)
+    print('--' * 40)
+    print(topic_data.as_dict())
+    print('--' * 40)
+    print("url ", user_details.profile_pic.url)
+    return render(request, 'my_blog.html', {'blog_data':blog_details, 'user_data':user_details, 'topic_data':topic_data, 'tags':tags})

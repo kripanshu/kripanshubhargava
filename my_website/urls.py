@@ -26,4 +26,6 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     path('', include('web_part.urls')),
     url(r'^hacks-to-code/', include('hacks_to_code.urls')),
+    url(r'^tinymce/', include('tinymce.urls')),
+
 ]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
