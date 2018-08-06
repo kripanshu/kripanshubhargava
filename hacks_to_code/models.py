@@ -25,7 +25,7 @@ class UserProfile(TimeStampedModel):
     profile_pic = models.ImageField(upload_to='profile_pic', blank=False, default=DEFAULT_PROFILE_IMAGE)
     followers = jsonfield.JSONField(default=None,
                                     blank=True,
-                                    load_kwargs=dict(object_pairs_hook=OrderedDict)) # contains list of user ID's
+                                    load_kwargs=dict(object_pairs_hook=OrderedDict))    # contains list of user ID's
     followers_count = models.IntegerField(default=0, blank=True)
     about_me = models.TextField(blank=True, max_length=500)
     created = models.DateTimeField(auto_now_add=True)
@@ -33,7 +33,7 @@ class UserProfile(TimeStampedModel):
     validate = models.BooleanField(blank=False, default=True)
 
     def __str__(self):
-        return '%s' % (self.username)
+        return '%s' % (self.name)
 
     class Meta:
         ordering = ('-created',)
@@ -77,7 +77,6 @@ class UserProfile(TimeStampedModel):
         else:
             return ok_resp(result)
 
-
     def get_objects_by_username(self, username):
         """return object by username"""
         result = UserProfile.objects.filter(username=username).first()
@@ -118,7 +117,7 @@ class ListTopicsModels(TimeStampedModel):
         verbose_name_plural = 'List topics models'
 
     def __str__(self):
-        return '%s' % str(self.topic_id)
+        return '%s' % str(self.name)
 
     def save(self, *args, **kwargs):
 

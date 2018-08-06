@@ -151,140 +151,164 @@ a:after {
 	SECTION WRAPS
 ---------------------------------------------------*/
 
-/* Header Wrap */
-#headerwrap {
-	background: url(../img/back.jpg) no-repeat center top;
-	margin-top: 60px;
-	padding-top:140px;
-	text-align:center;
-	background-attachment: relative;
-	background-position: center center;
-	min-height: 500px;
-	width: 100%;
-	
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
+/*!* Header Wrap *!*/
+/*#headerwrap {*/
+	/*background: url(../img/back.jpg) no-repeat center top;*/
+	/*margin-top: 60px;*/
+	/*padding-top:140px;*/
+	/*text-align:center;*/
+	/*background-attachment: relative;*/
+	/*background-position: center center;*/
+	/*min-height: 500px;*/
+	/*width: 100%;*/
+	/**/
+    /*-webkit-background-size: 100%;*/
+    /*-moz-background-size: 100%;*/
+    /*-o-background-size: 100%;*/
+    /*background-size: 100%;*/
 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    /*-webkit-background-size: cover;*/
+    /*-moz-background-size: cover;*/
+    /*-o-background-size: cover;*/
+    /*background-size: cover;*/
+/*}*/
+
+/*#headerwrap h1 {*/
+	/*font-size: 80px;*/
+	/*color: white;*/
+/*}*/
+
+/*#headerwrap h3 {*/
+	/*font-size: 20px;*/
+	/*color: white;*/
+/*}*/
+
+/*!* Intnro Wrap *!*/
+
+/*#intro {*/
+	/*background: #2c3e50;*/
+	/*padding-top: 60px;*/
+	/*padding-bottom: 60px;*/
+	/*color: white;*/
+/*}*/
+ /*#intro1 {*/
+	 /*background: white;*/
+	 /*padding-top: 60px;*/
+	 /*padding-bottom: 60px;*/
+	 /*color: white;*/
+ /*}*/
+
+ /*#intro h5, p {*/
+	/*color: white;*/
+/*}*/
+
+/*#intro i {*/
+	/*color: white;*/
+	/*font-size: 20px;*/
+	/*padding-right: 8px;*/
+	/*vertical-align: middle;*/
+/*}*/
+
+
+/*#skillswrap {*/
+	/*background: #2c3e50;*/
+	/*padding-top: 60px;*/
+	/*padding-bottom: 60px;*/
+	/*color: white;*/
+/*}*/
+
+/*#skillswrap h5, p {*/
+	/*color: white;*/
+/*}*/
+
+/*#footwrap {*/
+	/*background: #2f2f2f;*/
+	/*padding-top: 50px;*/
+	/*padding-bottom: 50px;*/
+/*}*/
+
+/*#footwrap p {*/
+	/*color: white;*/
+/*}*/
+
+/*#footwrap h5 {*/
+	/*color: white;*/
+/*}*/
+
+
+/*#footwrap t {*/
+	/*font-weight: 700;*/
+/*}*/
+
+/*#footwrap i {*/
+	/*padding-right: 8px;*/
+	/*color: #1abc9c;*/
+/*}*/
+
+/*!* Copyright Wrap *!*/
+
+/*#c {*/
+	/*background: #222222;*/
+	/*padding-top: 15px;*/
+	/*text-align: right;*/
+/*}*/
+
+/*#c p {*/
+	/*color: white*/
+/*}*/
+
+
+
+/*!* Global Values *!*/
+
+/*.desc {*/
+	/*padding-top: 50px;*/
+/*}*/
+
+/*.desc p {*/
+	/*color: #2f2f2f;*/
+/*}*/
+
+/*.desc t {*/
+	/*color: #34495e;*/
+	/*font-weight: 700;*/
+/*}*/
+
+/*.desc imp {*/
+	/*padding: 6px;*/
+	/*color: white;*/
+	/*background: #34495e;*/
+/*}*/
+
+/*.desc more {*/
+	/*color: #95a5a6;*/
+/*}*/
+
+
+/*sm {*/
+	/*font-size: 12px;*/
+/*}*/
+.attachment{
+  background:red;
+  border-radius:50%;
+  width:50px;
+  height:50px;
+  position:relative;
+  cursor:pointer;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
-
-#headerwrap h1 {
-	font-size: 80px;
-	color: white;
+.attachment:hover{
+  box-shadow:none;
+  transition:box-shadow .2s ease-in;
 }
-
-#headerwrap h3 {
-	font-size: 20px;
-	color: white;
+.fa-paperclip{
+  position:absolute;
+  top:50%;
+  font-size:24px;
+  left:50%;
+  transform:translate(-50%,-50%);
+  color:white;
 }
-
-/* Intnro Wrap */
-
-#intro {
-	background: #2c3e50;
-	padding-top: 60px;
-	padding-bottom: 60px;
-	color: white;
-}
- #intro1 {
-	 background: white;
-	 padding-top: 60px;
-	 padding-bottom: 60px;
-	 color: white;
- }
-
- #intro h5, p {
-	color: white;
-}
-
-#intro i {
-	color: white;
-	font-size: 20px;
-	padding-right: 8px;
-	vertical-align: middle;
-}
-
-
-#skillswrap {
-	background: #2c3e50;
-	padding-top: 60px;
-	padding-bottom: 60px;
-	color: white;
-}
-
-#skillswrap h5, p {
-	color: white;
-}
-
-#footwrap {
-	background: #2f2f2f;
-	padding-top: 50px;
-	padding-bottom: 50px;
-}
-
-#footwrap p {
-	color: white;
-}
-
-#footwrap h5 {
-	color: white;
-}
-
-
-#footwrap t {
-	font-weight: 700;
-}
-
-#footwrap i {
-	padding-right: 8px;
-	color: #1abc9c;
-}
-
-/* Copyright Wrap */
-
-#c {
-	background: #222222;
-	padding-top: 15px;
-	text-align: right;
-}
-
-#c p {
-	color: white
-}
-
-
-
-/* Global Values */
-
-.desc {
-	padding-top: 50px;
-}
-
-.desc p {
-	color: #2f2f2f;
-}
-
-.desc t {
-	color: #34495e;
-	font-weight: 700;
-}
-
-.desc imp {
-	padding: 6px;
-	color: white;
-	background: #34495e;
-}
-
-.desc more {
-	color: #95a5a6;
-}
-
-
-sm {
-	font-size: 12px;
+#exampleFormControlFile1{
+  display:none;
 }

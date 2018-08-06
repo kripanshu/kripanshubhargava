@@ -66,7 +66,7 @@ def view_write_blog_details(request):
                             blog_data=blog.as_dict(),
                             blog_desc_data=blog_des)
             # return render(request,'my_blog.html',{'blog_data':blog.as_dict(),'blog_desc_data':blog_des})
-            return HttpResponseRedirect('/hacks_to_code/home')
+            return HttpResponseRedirect('/hacks-to-code/home')
         else:
             # if form is not valid
             return JsonResponse(form.errors)

@@ -23,18 +23,31 @@ class TinyMCEWidget(TinyMCE):
 class BlogDescriptionForms(forms.Form):
     """Form to get details """
 
-    name = forms.CharField(required=True, label='Name', max_length=100, widget=forms.TextInput(attrs={'class' : 'form-control'}))
-    topic_id = forms.ModelChoiceField(queryset=ListTopicsModels.objects.all(), initial='ml001', widget=forms.Select(attrs={'class' : 'form-control'}))
+    name = forms.CharField(required=True, label='Name', max_length=100,
+                           widget=forms.TextInput(attrs={'class' : 'form-control',
+                                                          'placeholder': 'Enter the Blog Title',
+                                                          'font-family': 'Lato, sans-serif'}))
+    topic_id = forms.ModelChoiceField(queryset=ListTopicsModels.objects.all(), initial='ml001',
+                                      widget=forms.Select(attrs={'class' : 'form-control',
+                                                                  'font-family': 'Lato, sans-serif'}))
     topic_image = forms.FileField(required=False)
-    user_id = forms.ModelChoiceField(queryset=UserProfile.objects.all(), initial='Kripanshu', widget=forms.Select(attrs={'class' : 'form-control'}))
-    description = forms.CharField(required=True, max_length=255, label='Description', widget=forms.Textarea(attrs={'class' : 'form-control'}))
+    user_id = forms.ModelChoiceField(queryset=UserProfile.objects.all(), initial='Kripanshu',
+                                     widget=forms.Select(attrs={'class' : 'form-control',
+                                                                'font-family': 'Lato, sans-serif'}))
+    description = forms.CharField(required=True, max_length=255, label='Description',
+                                  widget=forms.Textarea(attrs={'class' : 'form-control',
+                                                               'placeholder': 'Descript your blog briefly',
+                                                               'font-family': 'Lato, sans-serif'}))
     # is_published = forms.BooleanField(required=False, label='Publish ?', widget=forms.CheckboxInput(attrs={'class' : 'form-control'}))
     blog_image = forms.FileField(required=False)
     tags = forms.CharField(required=True, max_length=255, label='Tags',
-                           widget=forms.TextInput(attrs={'class': 'form-control'}))
+                           widget=forms.TextInput(attrs={'class': 'form-control',
+                                                         'placeholder': 'Python, Java, ...',
+                                                         'font-family': 'Lato, sans-serif'}))
     tinymce = forms.CharField(
         widget=TinyMCEWidget(
-            attrs={'required': False, 'cols': 30, 'rows': 10}
+            attrs={'required': False, 'cols': 30, 'rows': 10,
+                   'font-family': 'Lato, sans-serif'}
         )
     )
 

@@ -38,8 +38,8 @@
                  <a class="d-inline-block align-top" href="{% url 'view_write_my_blog' %}"><i class="material-icons" style="margin-left: 1%; margin-right: 1%;float: right" >create</i></a>
                 <img class="img-circle" src="{% static "home/img/account.png" %}" alt="{% static "home/img/account.png" %}" style="height: 3%; width: 3%; float: right; margin-right: 1%;">
             {% elif  success_user %}
-                <a class="d-inline-block align-top" href="{% url 'view_write_blog_details' %}"><i class="material-icons" style="margin-left: 1%; margin-right: 1%;float: right" >create</i></a>
-            <img class="img-circle" src="{{ user_detail.profile_pic.url }}" style="height: 3%; width: 3%; float: right; margin-right: 1%;">
+                <a class="d-inline-block align-top" href="{% url 'view_write_blog_details' %}"><i class="material-icons" style="margin-left: 1%; margin-right: 1%;height: 4%; width: 4%; float: right" >create</i></a>
+            <img class="img-circle" src="{{ user_detail.profile_pic.url }}" style="height: 4%; width: 4%; float: right; margin-right: 1%;">
             {% endif %}
 
         </ul>
@@ -77,7 +77,7 @@
                 <tbody>
                     <tr>
                         {% if blog_list.topic_image.url %}
-                        <td style="width: 20%"><img class="rounded" style="margin-left:1%;width:60%; height: 60%" src="{{ blog_list.topic_image.url }}" alt="{% static "home/img/back.jpg" %}"></td>
+                        <td style="width: 20%"><img class="rounded" style="margin-left:1%;width:150px; height: 150px" src="{{ blog_list.topic_image.url }}" alt="{% static "home/img/back.jpg" %}"></td>
                         {% else %}
                            <td style="width: 20%"><img class="rounded" style="margin-left:1%;width:60%; height: 60%" src="{% static "home/img/back.jpg" %}" alt="{% static "home/img/back.jpg" %}"></td>
                         {% endif %}

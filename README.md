@@ -19,7 +19,7 @@ pip install -r requirements/requirements.txt
 
 ## Run the website from python web server
 
-Open a Terminal, from the top of this repository, run:
+from the same folder
 
 ```
 # from within ~/my_website

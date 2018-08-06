@@ -18,6 +18,7 @@
       <script type="text/javascript" src="{% static "home/js/smoothscroll.js" %}"></script>
        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+            <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 {#        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tinymce/4.8.0/plugins/codesample/css/prism.css">#}
 
       <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -39,72 +40,61 @@
     </div>
 </nav>
 <hr>
-<div class="container" >
+<div class="container">
+<div class="card-section" style="width: 112rem;">
+    <div class="card-body">
     {{ form.media }}
- <form class="form-control" action=""  method="POST" enctype="multipart/form-data">
+ <form  action=""  method="POST" enctype="multipart/form-data">
             {% csrf_token %}
-            {{ form.as_p }}
-        <input class="btn btn-primary" type="submit" value="Submit" />
+{#            {{ form.as_table }}#}
+{#        <input class="btn btn-primary" type="submit" value="Submit" />#}
 
 
 
-{#	<div class="form-group"> <!-- Full Name -->#}
-{#		<label for="full_name_id" class="control-label">Name</label>#}
-{#        {{ form.name }}#}
-{#	</div>#}
-{##}
-{#	<div class="form-group"> <!-- Street 1 -->#}
-{#		<label for="street1_id" class="control-label">Topic ID</label>#}
-{#		<input type="text" class="form-control" id="street1_id" name="street1" placeholder="Street address, P.O. box, company name, c/o">#}
-{#        {{ form.topic_id }}#}
-{#    </div>#}
-{##}
-{#	<div class="form-group"> <!-- Street 2 -->#}
-{#		<label for="street2_id" class="control-label">Topic Image</label>#}
-{#		<input type="text" class="form-control" id="street2_id" name="street2" placeholder="Apartment, suite, unit, building, floor, etc.">#}
-{#	{{ form.topic_image }}#}
-{#    </div>#}
-{##}
-{#	<div class="form-group"> <!-- City-->#}
-{#		<label for="city_id" class="control-label">User ID</label>#}
-{#		<input type="text" class="form-control" id="city_id" name="city" placeholder="Smallville">#}
-{#        {{ form.user_id }}#}
-{#	</div>#}
-{##}
-{#	<div class="form-group"> <!-- State Button -->#}
-{#		<label for="state_id" class="control-label">Description</label>#}
-{#		{{ form.description }}#}
-{#	</div>#}
-{##}
-{#	<div class="form-group"> <!-- Zip Code-->#}
-{#		<label for="zip_id" class="control-label">Should Be Published</label>#}
-{#		{{ form.is_published }}#}
-{#	</div>#}
-{##}
-{#     <div class="form-group"> <!-- Zip Code-->#}
-{#		<label for="image_blog" class="control-label">Blog Image</label>#}
-{#		{{ form.blog_image }}#}
-{#	</div>#}
-{#     <div class="form-group"> <!-- Zip Code-->#}
-{#		<label for="tags" class="control-label">Tags</label>#}
-{#		{{ form.tags }}#}
-{#	</div>#}
-{#     <div class="form-group"> <!-- Zip Code-->#}
-{#		<label for="blog_tiny_mce" class="control-label">Blog</label>#}
-{#		<textarea class="tinymce" id="texteditor"></textarea>#}
-{#	</div>#}
-{#     <div id='data-container' class="form-group"> <!-- Zip Code-->#}
-{#		<label for="blog_tiny_mce" class="control-label">Preview</label>#}
-{#		{{ form.tinymce }}#}
-{#	</div>#}
-{#    <div class="form-group"> <!-- Submit Button -->#}
-{#		<input id="get-data-form" class="btn btn-primary" onclick="myFunction()" value="preview" />#}
-{#	</div>#}
-{##}
-{#	<div class="form-group"> <!-- Submit Button -->#}
-{#		<input class="btn btn-primary" type="submit" value="Submit" />#}
-{#	</div>#}
+	<div class="form-group"> <!-- Full Name -->
+		<label for="full_name_id" style="'font-family': 'Lato, sans-serif';color: #0D47A1" class="control-label">Name</label>
+        {{ form.name }}
+	</div>
+
+	<div class="form-group"> <!-- Street 1 -->
+		<label for="street1_id" style="'font-family': 'Lato, sans-serif';color: #0D47A1" class="control-label">Blog Topic</label>
+		<option value="" disabled selected>Select topic for your blog</option>
+        {{ form.topic_id }}
+    </div>
+
+	<div class="form-group"> <!-- Street 2 -->
+		<label for="street2_id" style="'font-family': 'Lato, sans-serif';color: #0D47A1" class="control-label">Topic Image</label>
+		{{ form.topic_image }}
+    </div>
+
+	<div class="form-group"> <!-- City-->
+		<label for="city_id" style="'font-family': 'Lato, sans-serif';color: #0D47A1" class="control-label">User</label>
+		<option value="" disabled selected>Select User</option>
+        {{ form.user_id }}
+	</div>
+
+	<div class="form-group"> <!-- State Button -->
+		<label for="state_id" style="'font-family': 'Lato, sans-serif';color: #0D47A1" class="control-label">Description</label>
+		{{ form.description }}
+	</div>
+     <div class="form-group"> <!-- Zip Code-->
+		<label for="image_blog" style="'font-family': 'Lato, sans-serif'; color: #0D47A1" class="control-label">Blog Image</label>
+		{{ form.blog_image }}
+	</div>
+     <div class="form-group"> <!-- Zip Code-->
+		<label for="tags" style="'font-family': 'Lato, sans-serif';color: #0D47A1" class="control-label">Tags</label>
+		{{ form.tags }}
+	</div>
+     <div id='data-container' class="form-group"> <!-- Zip Code-->
+		<label for="blog_tiny_mce" style="'font-family': 'Lato, sans-serif';color: #0D47A1" class="control-label">Blog</label>
+		{{ form.tinymce }}
+	</div>
+	<div class="form-group"> <!-- Submit Button -->
+		<input class="btn btn-primary" type="submit" value="Submit" />
+	</div>
  </form>
+    </div>
+    </div>
     </div>
 </body>
 {#<script>#}
