@@ -18,7 +18,7 @@ Pillow==5.2.0
 plumber==1.5
 psycopg2==2.7.5
 psycopg2-binary==2.7.5
-python-dateutil==2.7.3s
+python-dateutil==2.7.3
 pytz==2018.4
 requests==2.18.4
 six==1.11.0
