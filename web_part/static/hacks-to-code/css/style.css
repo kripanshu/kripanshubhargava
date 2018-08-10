@@ -53,8 +53,8 @@
     color: gray;
 }
 #social-img{
-    margin-left: 6%;
-    margin-top: 10%;
+    margin-left: 3%;
+    margin-top: 50%;
     width: 80%;
     padding: 2%
 }
@@ -64,27 +64,17 @@
     font-style: italic;
     font-size: 1px;
 }
-ul {
-    list-style-type: none;
-  }
-  li{
-    margin: 10px 0;
-  }
-.social{
-    border: solid;
-    border-color: #97C8FF;
-    border-radius: 30px;
-    padding: 2%;
-    height: 14mm;
-}
+
 .published{
     font-style: italic;
     font-size: 1mm;
 }
 
 .social-div{
+    /*z-index: 9000;*/
     position: fixed; 
     display: inline-block;
+    right: 0;
 }
 .tag{
     list-style-type: none;
@@ -103,3 +93,5 @@ ul {
     padding: 2%;
     /* width: 80%; */
 }
+
+/*Here comes the side nav*/

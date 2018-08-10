@@ -24,6 +24,11 @@ urlpatterns = (
     path(r'view-my-blog/(?P<blog_id>[a-zA-Z0-9_\.-]+$)',
          views.view_my_blog,
          name='view_my_blog'),
+    # homepage/ splash page
+    #
+    path(r'information',
+         views.get_info,
+         name='get_info'),
 
 
 

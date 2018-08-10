@@ -9,12 +9,20 @@
        <link rel="icon" type="image/png" href="{% static 'resume/images/Symbol.png' %}" />
       <link rel="shortcut icon" href="{% static "home/img/htc_icon.png" %}">
       <title>Hacks To Code</title>
+
+       <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="{% static 'materialize/css/materialize.min.css' %}"  media="screen,projection"/>
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
       <!-- Bootstrap core CSS -->
-      <link href="{% static "hacks-to-code/css/bootstrap.css" %}" rel="stylesheet">
+{#      <link href="{% static "hacks-to-code/css/bootstrap.css" %}" rel="stylesheet">#}
       <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
       <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
       <script src="{% static "home/js/jquery.min.js" %}"></script>
-      <script src="{% static "hacks-to-code/js/bootstrap.js" %}"></script>
+{#      <script src="{% static "hacks-to-code/js/bootstrap.js" %}"></script>#}
       <script type="text/javascript" src="{% static "home/js/smoothscroll.js" %}"></script>
        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
@@ -22,93 +30,201 @@
       <!--[if lt IE 9]>
       <![endif]-->
       <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+       <link href="{% static 'materialize/css/materialize.css' %}">
+       <link href="{% static 'materialize/js/materialize.js' %}">
    </head>
-   <body>
-    <nav class="navbar navbar-light bg-light">
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul>
-            <a href="#" style="font-family: 'Roboto', sans-serif; float: left; display: inline-block; margin-top: 1%; text-decoration:none;">
-         <img src="{% static "home/img/htc_icon.png" %}" width="25px" height="25px" class="d-inline-block align-top" alt="">
-         Hacks To Code
+   <body >
+   <script type="text/javascript" src="{% static 'materialize/js/materialize.min.js' %}"></script>
+   <script>
+         $(document).ready(function(){
+    $('.tooltipped').tooltip();
+  });
+   </script>
+<div class="navbar-fixed">
+  <nav class="nav-extended black">
+    <div class="nav-wrapper">
+       <a href="#">
+         <img src="{% static "hacks-to-code/img/htc_icon.png" %}" width="75px" height="50px" style="margin-left: 3%; margin-top: 1%" alt="">
          </a>
+        <ul class="right hide-on-med-and-down">
+            {% for topics_list in topics_list %}
+                <li class="tab"><a href="{% url 'view_homepage_blog_list' topics_list.topic_id %} ">{{ topics_list.name }}</a></li>
 
-        </ul>
-        <ul class="nav navbar-nav navbar-right">
-            {% if not success_user %}
-                 <a class="d-inline-block align-top" href="{% url 'view_write_my_blog' %}"><i class="material-icons" style="margin-left: 1%; margin-right: 1%;float: right" >create</i></a>
-                <img class="img-circle" src="{% static "home/img/account.png" %}" alt="{% static "home/img/account.png" %}" style="height: 3%; width: 3%; float: right; margin-right: 1%;">
-            {% elif  success_user %}
-                <a class="d-inline-block align-top" href="{% url 'view_write_blog_details' %}"><i class="material-icons" style="margin-left: 1%; margin-right: 1%;height: 4%; width: 4%; float: right" >create</i></a>
-            <img class="img-circle" src="{{ user_detail.profile_pic.url }}" style="height: 4%; width: 4%; float: right; margin-right: 1%;">
-            {% endif %}
-
-        </ul>
-    </div>
-    <!-- /.navbar-collapse -->
-
-</nav>
-{# Nav bar to be loaded with topics #}
-<nav class="navbar navbar-inverse">
-    <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-
-            <ul class="nav navbar-nav">
-
-                {% for topics_list in topics_list %}
-                <li class="active"><a href="{% url 'view_homepage_blog_list' topics_list.topic_id %} ">{{ topics_list.name }} <span class="sr-only">(current)</span></a></li>
-                    <li> | </li>
                 {% endfor %}
+{#            <li><a><img class="img-circle" src="{{ user_detail.profile_pic.url }}" style="width: 40px;height: 40px;border-radius: 50%;margin: 20px;object-fit: cover;object-position: center right;"></a></li>#}
+
+      </ul>
+    </div>
+    <div class="nav-content">
+      <a href="{% url 'view_write_blog_details' %}" class="btn-floating btn tooltipped pulse btn-large halfway-fab waves-effect waves blue" data-position="left" data-tooltip="Write Blog">
+        <i class="material-icons">add</i>
+      </a>
+    </div>
+  </nav>
+</div>
+<br>
+
+
+   <h5>{{ topics.name }}</h5>
+<div class="container" >
+<div class="social-div" style="right: 10%; position: fixed; top: 35%; padding: 1%">
+            <ul>
+                <li class="center-align" style="'font-family': 'Lato, sans-serif'; color: #0D47A1"><h6>HACKS TO CODE</h6> </li>
+                <li class="center-align" style="padding: 1%"><a href="{% url 'get_info' %}"><i class="material-icons medium text-grey hoverable" style="color: #424242; border-radius:100px ">info</i></a></li>
+                <li class="center-align" style="padding: 3%"><a href="https://github.com/kripanshu/kripanshubhargava" target="_blank"><i class="fab fa-github medium hoverable" style="color: #424242; border-radius:70px"></i></a></li>
+                <li class="center-align"style="padding: 2%" ><a href="http://127.0.0.1:8000/"><img class="img-circle hoverable" src="{{ user_detail.profile_pic.url }}" style="width: 50px;height: 50px;border-radius: 50%;margin: 20px;object-fit: cover;object-position: center right;"></a></li>
             </ul>
         </div>
-        <!-- /.navbar-collapse -->
-    </div>
-    <!-- /.container-fluid -->
-</nav>
 
- {% if success_topic %}
-{% for blog_list in topics %}
-<a href="{% url 'view_my_blog' blog_list.blog_id %}" style="text-decoration: none; color:black; ">
-    <div class="card" style="margin: 3%; ">
-        <div class="card-body">
-            <table class="table" style="padding: 2%; ">
-                <tbody>
-                    <tr>
-                        {% if blog_list.topic_image.url %}
-                        <td style="width: 20%"><img class="rounded" style="margin-left:1%;width:150px; height: 150px" src="{{ blog_list.topic_image.url }}" alt="{% static "home/img/back.jpg" %}"></td>
-                        {% else %}
-                           <td style="width: 20%"><img class="rounded" style="margin-left:1%;width:60%; height: 60%" src="{% static "home/img/back.jpg" %}" alt="{% static "home/img/back.jpg" %}"></td>
-                        {% endif %}
-                        <td style="width: 90%">
-                            <div class="card-body">
-                                <h5 class="card-title">{{ blog_list.name }}</h5>
-                                <p class="card-text">
-                                    {{ blog_list.description }}
-                                </p>
-                                <p class="card-text"><small class="text-muted"> Last Updated on {{ blog_list.modified }}</small></p>
-                            </div>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
+   {% if success_topic %}
+   {% for blog_list in topics %}
+       <a href="{% url 'view_my_blog' blog_list.blog_id %}" style="text-decoration: none; color:black; ">
+
+           <div class="row" >
+   <div class="col s9 offset-s1 ">
+
+    <div class="card x-small horizontal grey-text text-darken-2 hoverable ">
+      <div class="card-image" >
+       {% if blog_list.topic_image.url %}
+        <img style="width: 160px;height: 170px; margin-top: 10%" src="{{ blog_list.topic_image.url }}">
+          {% else %}
+           <img src="{% static "home/img/back.jpg" %}">
+          {% endif %}
+      </div>
+      <div class="card-stacked">
+        <div class="card-content">
+
+            <h5 class="card-header">{{ blog_list.name }}</h5>
+          <p>{{ blog_list.description }}</p>
         </div>
-    </div>
+        <div class="card-action">
 
-</a>
-    {% endfor %}
-    {% elif not success_topic %}
-    <div class="container">
-    <div class="card" style="margin: 3%; ">
-        <div class="card-body">
-            <p> No blogs listed for this topic</p>
+            <span style="float: right;margin: 10px;">{{ user_detail.name }}</span>
+             <span style="float: right">
+               <img src="{{ user_detail.profile_pic.url }}" style="width: 40px;height: 40px;border-radius: 50%;object-fit: cover;object-position: center right; float: left">
+
+            </span>
+          <p style="font-size: small; margin-top: 10px;">Last Updated on {{ blog_list.modified }}</p>
         </div>
+      </div>
     </div>
+  </div>
 
 
-    </div>
-    {% endif %}
+       </div>
+       </a>
 
-</body>
+{% endfor %}
+
+   {% elif not success_topic %}
+        <div class="row" >
+   <div class="col s10 offset-s1">
+        <div class="card-panel">
+    <span class="blue-text text-darken-2">No blog listed for </span>
+  </div>
+   </div>
+        </div>
+   {% endif %}
+
+</div>
+   <div class="container" >
+          <div class="footer-copyright white-text grey darken-4" style=" left:0; width:100%;position: fixed; bottom: 0">
+            <div class="container center-align" >
+            © Kripanshu Bhargava
+
+            </div>
+          </div>
+       </div>
+   </body>
+
+
+
+{#   <body>#}
+{#    <nav class="navbar navbar-light bg-light">#}
+{#    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">#}
+{#        <ul>#}
+{#            <a href="#" style="font-family: 'Roboto', sans-serif; float: left; display: inline-block; margin-top: 1%; text-decoration:none;">#}
+{#         <img src="{% static "home/img/htc_icon.png" %}" width="25px" height="25px" class="d-inline-block align-top" alt="">#}
+{#         Hacks To Code#}
+{#         </a>#}
+{##}
+{#        </ul>#}
+{#        <ul class="nav navbar-nav navbar-right">#}
+{#            {% if not success_user %}#}
+{#                 <a class="d-inline-block align-top" href="{% url 'view_write_my_blog' %}"><i class="material-icons" style="margin-left: 1%; margin-right: 1%;float: right" >create</i></a>#}
+{#                <img class="img-circle" src="{% static "home/img/account.png" %}" alt="{% static "home/img/account.png" %}" style="height: 3%; width: 3%; float: right; margin-right: 1%;">#}
+{#            {% elif  success_user %}#}
+{#                <a class="d-inline-block align-top" href="{% url 'view_write_blog_details' %}"><i class="material-icons" style="margin-left: 1%; margin-right: 1%;height: 4%; width: 4%; float: right" >create</i></a>#}
+{#            <img class="img-circle" src="{{ user_detail.profile_pic.url }}" style="height: 4%; width: 4%; float: right; margin-right: 1%;">#}
+{#            {% endif %}#}
+{##}
+{#        </ul>#}
+{#    </div>#}
+{#    <!-- /.navbar-collapse -->#}
+{##}
+{#</nav>#}
+{# Nav bar to be loaded with topics #}
+{#<nav class="navbar navbar-inverse">#}
+{#    <div class="container-fluid">#}
+{#        <!-- Brand and toggle get grouped for better mobile display -->#}
+{##}
+{#        <!-- Collect the nav links, forms, and other content for toggling -->#}
+{#        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">#}
+{##}
+{#            <ul class="nav navbar-nav">#}
+{##}
+{#                {% for topics_list in topics_list %}#}
+{#                <li class="active"><a href="{% url 'view_homepage_blog_list' topics_list.topic_id %} ">{{ topics_list.name }} <span class="sr-only">(current)</span></a></li>#}
+{#                    <li> | </li>#}
+{#                {% endfor %}#}
+{#            </ul>#}
+{#        </div>#}
+{#        <!-- /.navbar-collapse -->#}
+{#    </div>#}
+{#    <!-- /.container-fluid -->#}
+{#</nav>#}
+{##}
+{# {% if success_topic %}#}
+{#{% for blog_list in topics %}#}
+{#<a href="{% url 'view_my_blog' blog_list.blog_id %}" style="text-decoration: none; color:black; ">#}
+{#    <div class="card" style="margin: 3%; ">#}
+{#        <div class="card-body">#}
+{#            <table class="table" style="padding: 2%; ">#}
+{#                <tbody>#}
+{#                    <tr>#}
+{#                        {% if blog_list.topic_image.url %}#}
+{#                        <td style="width: 20%"><img class="rounded" style="margin-left:1%;width:150px; height: 150px" src="{{ blog_list.topic_image.url }}" alt="{% static "home/img/back.jpg" %}"></td>#}
+{#                        {% else %}#}
+{#                           <td style="width: 20%"><img class="rounded" style="margin-left:1%;width:60%; height: 60%" src="{% static "home/img/back.jpg" %}" alt="{% static "home/img/back.jpg" %}"></td>#}
+{#                        {% endif %}#}
+{#                        <td style="width: 90%">#}
+{#                            <div class="card-body">#}
+{#                                <h5 class="card-title">{{ blog_list.name }}</h5>#}
+{#                                <p class="card-text">#}
+{#                                    {{ blog_list.description }}#}
+{#                                </p>#}
+{#                                <p class="card-text"><small class="text-muted"> Last Updated on {{ blog_list.modified }}</small></p>#}
+{#                            </div>#}
+{#                        </td>#}
+{#                    </tr>#}
+{#                </tbody>#}
+{#            </table>#}
+{#        </div>#}
+{#    </div>#}
+{##}
+{#</a>#}
+{#    {% endfor %}#}
+{#    {% elif not success_topic %}#}
+{#    <div class="container">#}
+{#    <div class="card" style="margin: 3%; ">#}
+{#        <div class="card-body">#}
+{#            <p> No blogs listed for this topic</p>#}
+{#        </div>#}
+{#    </div>#}
+{##}
+{##}
+{#    </div>#}
+{#    {% endif %}#}
+{##}
+{#</body>#}
 </html>

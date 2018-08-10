@@ -168,3 +168,8 @@ def view_my_blog(request, blog_id):
     print('--' * 40)
     print("url ", user_details.profile_pic.url)
     return render(request, 'my_blog.html', {'blog_data':blog_details, 'user_data':user_details, 'topic_data':topic_data, 'tags':tags})
+
+
+def get_info(request):
+    """ just show info page"""
+    return render(request,'info.html')

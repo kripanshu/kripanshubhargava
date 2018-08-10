@@ -24,19 +24,23 @@ class BlogDescriptionForms(forms.Form):
     """Form to get details """
 
     name = forms.CharField(required=True, label='Name', max_length=100,
-                           widget=forms.TextInput(attrs={'class' : 'form-control',
+                           widget=forms.TextInput(attrs={'class': 'validate',
+                                                         'type':'text',
+                                                         'id':'name',
                                                           'placeholder': 'Enter the Blog Title',
                                                           'font-family': 'Lato, sans-serif'}))
     topic_id = forms.ModelChoiceField(queryset=ListTopicsModels.objects.all(), initial='ml001',
-                                      widget=forms.Select(attrs={'class' : 'form-control',
+                                      widget=forms.Select(attrs={'class' : 'Select',
                                                                   'font-family': 'Lato, sans-serif'}))
     topic_image = forms.FileField(required=False)
     user_id = forms.ModelChoiceField(queryset=UserProfile.objects.all(), initial='Kripanshu',
-                                     widget=forms.Select(attrs={'class' : 'form-control',
+                                     widget=forms.Select(attrs={'class' : 'Select',
                                                                 'font-family': 'Lato, sans-serif'}))
     description = forms.CharField(required=True, max_length=255, label='Description',
-                                  widget=forms.Textarea(attrs={'class' : 'form-control',
-                                                               'placeholder': 'Descript your blog briefly',
+                                  widget=forms.Textarea(attrs={'class': 'materialize-textarea',
+                                                                'type':'text',
+                                                                'id':'description',
+                                                               'placeholder': 'Describe your blog briefly',
                                                                'font-family': 'Lato, sans-serif'}))
     # is_published = forms.BooleanField(required=False, label='Publish ?', widget=forms.CheckboxInput(attrs={'class' : 'form-control'}))
     blog_image = forms.FileField(required=False)
@@ -47,7 +51,8 @@ class BlogDescriptionForms(forms.Form):
     tinymce = forms.CharField(
         widget=TinyMCEWidget(
             attrs={'required': False, 'cols': 30, 'rows': 10,
-                   'font-family': 'Lato, sans-serif'}
+                   'font-family': 'Lato, sans-serif',
+                   'placeholder': 'Write here ...'}
         )
     )
 

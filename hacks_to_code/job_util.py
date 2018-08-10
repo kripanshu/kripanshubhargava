@@ -119,3 +119,58 @@ class JobUtil(object):
             return err_resp(blog_des_data)
         print(" topic_data ---", blog_des_data)
         return ok_resp(blog_des_data)
+
+
+    # @staticmethod
+    # def get_home_collection(topic_id):
+    #     """ get details for home needed for home"""
+    #     user_detail = {}
+    #     topics_list = {}
+    #     final = []
+    #     blog_lists = {}
+    #     # success_user, user_detail = JobUtil.get_user_details(1)
+    #     success_topic_list, topic_list = JobUtil.get_topics_details()
+    #     success_topic, topic = JobUtil.get_blog_list_by_id(topic_id)
+    #     print("This is creating problem", topic)
+    #     if not success_topic_list:
+    #         return err_resp(topic_list)
+    #
+    #     if not success_topic:
+    #         print("no suchtopicfound")
+    #         blog_lists = []
+    #         return err_resp(topic)
+    #
+    #     print("This is creating problem", topic)
+    #
+    #     for items in topic:
+    #         print("item list", items)
+    #
+    #         user_id = items.user_Id_id
+    #         success_user, user_obj = JobUtil.get_user_details(user_id)
+    #         if not success_user:
+    #             pass
+    #
+    #         blog_lists[str(items.id)]['user_detail'] = user_obj.as_dict()
+    #         blog_lists[str(items.id)]['topic'] = items.as_dict()
+    #
+    #         final.append(blog_lists)
+    #
+    #     # print(final)
+    #     return ok_resp(final)
+
+
+"""
+from hacks_to_code.models import (UserProfile, Blog, BlogDescriptionModel, ListTopicsModels, TOPIC_CHOICES)
+from utils.basic_response import (ok_resp,
+                                  err_resp,
+                                  err_resp_with_data)
+from hacks_to_code.job_util import JobUtil
+import json
+
+success, obj = JobUtil.get_home_collection('ft001')
+print(json.dumps(obj))
+                                  
+
+"""
+
+
