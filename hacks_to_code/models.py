@@ -39,7 +39,6 @@ class UserProfile(TimeStampedModel):
         ordering = ('-created',)
 
     def save(self, *args, **kwargs):
-        self.profile_pic = kwargs.get('profile_pic')
         if not self.profile_pic:
             self.profile_pic = DEFAULT_PROFILE_IMAGE
 

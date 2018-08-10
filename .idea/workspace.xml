@@ -2,92 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3e5331b-bc0a-490b-a338-88712eb3ea6c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hacks_to_code/storage/blog_image/Decision_Tree_Cover.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hacks_to_code/storage/blog_image/IMG_3478.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hacks_to_code/storage/blog_image/Screen_Shot_2018-06-01_at_3.20.31_PM.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hacks_to_code/storage/blog_image/Screen_Shot_2018-06-01_at_3.20.31_PM_YStzRqp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hacks_to_code/storage/blog_image/Screen_Shot_2018-06-01_at_3.20.31_PM_hYPW0BS.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hacks_to_code/storage/blog_image/Screen_Shot_2018-06-01_at_3.20.31_PM_i79qBXe.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hacks_to_code/storage/blog_image/Screen_Shot_2018-06-01_at_3.20.31_PM_wVqBWbe.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hacks_to_code/storage/blog_image/Screen_Shot_2018-06-01_at_3.20.31_PM_xlnXi1b.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hacks_to_code/storage/blog_image/WSW_.fw_.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hacks_to_code/storage/blog_image/WSW_.fw__1L8g3tZ.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hacks_to_code/storage/blog_image/WSW_.fw__DEkPOVi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hacks_to_code/storage/blog_image/WSW_.fw__WmAU0nI.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hacks_to_code/storage/blog_image/WSW_.fw__fVfGXdX.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hacks_to_code/storage/blog_image/WSW_.fw__ffHMPXJ.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hacks_to_code/storage/blog_image/WSW_.fw__sKExXX9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hacks_to_code/storage/blog_image/WSW_.fw__w9KdBqo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hacks_to_code/storage/blog_image/WSW_.fw__xWUgxK3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hacks_to_code/storage/blog_image/WSW_.fw__xseWU44.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hacks_to_code/storage/blog_image/WSW_.fw__z94ARAb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hacks_to_code/storage/blog_image/code2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hacks_to_code/storage/blog_image/coding.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hacks_to_code/storage/blog_image/coding2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hacks_to_code/storage/blog_image/coding_6gBTeLl.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hacks_to_code/storage/blog_image/coding_vnC0SzH.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hacks_to_code/storage/blog_image/navbar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hacks_to_code/storage/profile_pic/account.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hacks_to_code/storage/profile_pic/fullsizeoutput_1104.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hacks_to_code/storage/profile_pic/fullsizeoutput_127f.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hacks_to_code/storage/topic_image/Screen_Shot_2018-05-21_at_10.40.23_PM.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hacks_to_code/storage/topic_image/Screen_Shot_2018-05-21_at_10.40.23_PM_bRFmsCh.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hacks_to_code/storage/topic_image/Symbol.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hacks_to_code/storage/topic_image/Symbol_6bJA5oU.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hacks_to_code/storage/topic_image/Symbol_EmRM9Zo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hacks_to_code/storage/topic_image/Symbol_IeBUL5J.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hacks_to_code/storage/topic_image/Symbol_vijmjfV.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hacks_to_code/storage/topic_image/comment-processing.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hacks_to_code/storage/topic_image/comment-processing_6XDyZ3j.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hacks_to_code/storage/topic_image/comment-processing_8OxwzvA.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hacks_to_code/storage/topic_image/comment-processing_9pEEDqM.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hacks_to_code/storage/topic_image/comment-processing_AMZUK1j.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hacks_to_code/storage/topic_image/comment-processing_ClSrZ8M.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hacks_to_code/storage/topic_image/comment-processing_CpPRceU.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hacks_to_code/storage/topic_image/comment-processing_DRkhO14.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hacks_to_code/storage/topic_image/comment-processing_Dpi0RZb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hacks_to_code/storage/topic_image/comment-processing_EM3520M.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hacks_to_code/storage/topic_image/comment-processing_FpwVMmQ.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hacks_to_code/storage/topic_image/comment-processing_HnwfFKw.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hacks_to_code/storage/topic_image/comment-processing_OjRYKbM.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hacks_to_code/storage/topic_image/comment-processing_Q5QB2ng.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hacks_to_code/storage/topic_image/comment-processing_SMdPbvC.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hacks_to_code/storage/topic_image/comment-processing_U4Nyz2C.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hacks_to_code/storage/topic_image/comment-processing_b7kV7AL.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hacks_to_code/storage/topic_image/comment-processing_bGWLSbQ.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hacks_to_code/storage/topic_image/comment-processing_niApCXL.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hacks_to_code/storage/topic_image/comment-processing_slyzUO0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hacks_to_code/storage/topic_image/comment-processing_v7w9i2o.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hacks_to_code/storage/topic_image/comment-processing_xoQrvAN.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hacks_to_code/storage/topic_image/comment-processing_zCU7p7i.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hacks_to_code/storage/topic_image/css.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hacks_to_code/storage/topic_image/decision_tree.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hacks_to_code/storage/topic_image/githubicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hacks_to_code/storage/topic_image/githubicon_FWys5HP.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hacks_to_code/storage/topic_image/gmailicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hacks_to_code/storage/topic_image/gmailicon_74febGh.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hacks_to_code/storage/topic_image/gmailicon_PEuy9Zj.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hacks_to_code/storage/topic_image/gmailicon_QWPSkm2.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hacks_to_code/storage/topic_image/gmailicon_cgl0uPW.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hacks_to_code/storage/topic_image/gmailicon_uqd09Y8.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hacks_to_code/storage/topic_image/hacks_to_code.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hacks_to_code/storage/topic_image/meicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hacks_to_code/storage/topic_image/meicon_CzAJUCY.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hacks_to_code/storage/topic_image/meicon_a6EjkFb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hacks_to_code/storage/topic_image/meicon_ggMiAul.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hacks_to_code/storage/topic_image/meicon_iBDV42g.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hacks_to_code/storage/topic_image/meicon_sCB0acf.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hacks_to_code/storage/topic_image/pythonIcon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hacks_to_code/storage/topic_image/pythonIcon_g6kbyod.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hacks_to_code/storage/topic_image/pythonIcon_hVaY8LH.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hacks_to_code/storage/topic_image/pythonIcon_mxNUspE.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hacks_to_code/storage/topic_image/pythonIcon_t1hcDw0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hacks_to_code/storage/topic_image/pythonIcon_vuIulbj.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hacks_to_code/storage/topic_image/pythonpng.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hacks_to_code/storage/topic_image/stats.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hacks_to_code/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/hacks_to_code/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hacks_to_code/job_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/hacks_to_code/job_util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hacks_to_code/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/hacks_to_code/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hacks_to_code/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/hacks_to_code/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hacks_to_code/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/hacks_to_code/views.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -117,11 +36,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/hacks_to_code/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="171" lean-forward="true" selection-start-line="171" selection-end-line="171" />
+            <state relative-caret-position="266">
+              <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
               </folding>
@@ -132,8 +51,8 @@
       <file leaf-file-name="job_util.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hacks_to_code/job_util.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="155" column="38" lean-forward="true" selection-start-line="155" selection-start-column="38" selection-end-line="155" selection-end-column="38" />
+            <state relative-caret-position="225">
+              <caret line="15" column="38" lean-forward="true" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -171,11 +90,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hacks_to_code/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="145">
+              <caret line="61" column="29" lean-forward="true" selection-start-line="61" selection-start-column="29" selection-end-line="61" selection-end-column="29" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hacks_to_code/templates/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-261">
-              <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+            <state relative-caret-position="129">
+              <caret line="78" column="33" selection-start-line="78" selection-start-column="33" selection-end-line="78" selection-end-column="33" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -301,20 +232,20 @@
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/hacks_to_code/templates/base.html" />
-        <option value="$PROJECT_DIR$/hacks_to_code/models.py" />
         <option value="$PROJECT_DIR$/web_part/static/home/css/main.css" />
         <option value="$PROJECT_DIR$/web_part/static/materialize/css/materialize.css" />
-        <option value="$PROJECT_DIR$/hacks_to_code/job_util.py" />
         <option value="$PROJECT_DIR$/hacks_to_code/forms.py" />
         <option value="$PROJECT_DIR$/hacks_to_code/templates/info.html" />
-        <option value="$PROJECT_DIR$/hacks_to_code/views.py" />
         <option value="$PROJECT_DIR$/my_website/settings.py" />
         <option value="$PROJECT_DIR$/web_part/static/hacks-to-code/css/style.css" />
         <option value="$PROJECT_DIR$/web_part/static/hacks-to-code/js/main.js" />
-        <option value="$PROJECT_DIR$/hacks_to_code/templates/home.html" />
         <option value="$PROJECT_DIR$/hacks_to_code/templates/my_blog.html" />
         <option value="$PROJECT_DIR$/hacks_to_code/templates/write_blog.html" />
         <option value="$PROJECT_DIR$/hacks_to_code/urls.py" />
+        <option value="$PROJECT_DIR$/hacks_to_code/models.py" />
+        <option value="$PROJECT_DIR$/hacks_to_code/templates/home.html" />
+        <option value="$PROJECT_DIR$/hacks_to_code/job_util.py" />
+        <option value="$PROJECT_DIR$/hacks_to_code/views.py" />
       </list>
     </option>
   </component>
@@ -703,7 +634,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32969698" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50143063" side_tool="true" weight="0.41575757" />
@@ -711,8 +641,8 @@
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Python Console" order="11" weight="0.3298292" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32506528" />
-      <window_info anchor="bottom" id="Terminal" order="15" sideWeight="0.4985694" weight="0.41575757" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18884121" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="15" sideWeight="0.4985694" visible="true" weight="0.41575757" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18884121" />
       <window_info anchor="right" id="R Packages" order="6" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="right" id="R Graphics" order="4" />
@@ -970,7 +900,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web_part/static/hacks-to-code/js/bootstrap.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-99" />
+        <state relative-caret-position="-99">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hacks_to_code/templates/base.html" />
@@ -984,42 +918,12 @@
     <entry file="file://$PROJECT_DIR$/web_part/static/hacks-to-code/img/iconHTC.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/hacks_to_code/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1925">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hacks_to_code/job_util.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="155" column="38" lean-forward="true" selection-start-line="155" selection-start-column="38" selection-end-line="155" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hacks_to_code/forms.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="511">
           <caret line="52" column="47" selection-start-line="52" selection-start-column="47" selection-end-line="52" selection-end-column="47" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hacks_to_code/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="171" lean-forward="true" selection-start-line="171" selection-end-line="171" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1124,10 +1028,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/hacks_to_code/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="61" column="29" lean-forward="true" selection-start-line="61" selection-start-column="29" selection-end-line="61" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/hacks_to_code/templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-261">
-          <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+        <state relative-caret-position="129">
+          <caret line="78" column="33" selection-start-line="78" selection-start-column="33" selection-end-line="78" selection-end-column="33" />
           <folding>
             <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1145,6 +1059,26 @@
             <element signature="n#style#0;n#img#0;n#span#1;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#a#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#a#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hacks_to_code/job_util.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="38" lean-forward="true" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hacks_to_code/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
           </folding>
         </state>
       </provider>

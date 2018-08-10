@@ -84,11 +84,11 @@ def view_homepage_blog_list(request, topic_id):
         print('topic _ id ---------', topic_id)
         topic_id = topic_id
 
-    success_user, user_detail = JobUtil.get_user_details(1)
+    success_user, user_detail = JobUtil.get_user_details('Kripanshu')
     success_topic_list, topic_list = JobUtil.get_topics_details()
     success_topic, topic = JobUtil.get_blog_list_by_id(topic_id)
 
-    print("url ",user_detail.profile_pic.url)
+    print("url ",user_detail)
     if not success_topic_list:
         user_msg = {
                     'success_list': False,
@@ -125,6 +125,7 @@ def view_homepage_blog_list(request, topic_id):
                 'topics': topic
                 }
     print("topic list ",topic)
+    print("topic", topic_list)
     return render(request, 'home.html', user_msg)
 
 

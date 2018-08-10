@@ -12,13 +12,13 @@ class JobUtil(object):
     """ this is the utility class for view"""
 
     @staticmethod
-    def get_user_details(id):
+    def get_user_details(username):
         """This is to get user details
         ** for now user authentication is not done is users
         are manually added.
         """
         user_obj = UserProfile()
-        success, obj = user_obj.get_objects_by_id(id)
+        success, obj = user_obj.get_objects_by_username(username)
 
         if success:
             return ok_resp(obj)

@@ -76,7 +76,7 @@
             </ul>
         </div>
 
-   {% if success_topic %}
+   {% if success_topic and topics %}
    {% for blog_list in topics %}
        <a href="{% url 'view_my_blog' blog_list.blog_id %}" style="text-decoration: none; color:black; ">
 
