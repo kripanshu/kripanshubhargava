@@ -21,7 +21,7 @@ urlpatterns = (
          views.view_write_blog_details,
          name='view_write_blog_details'),
 
-    path(r'view-my-blog/(?P<blog_id>[a-zA-Z0-9_\.-]+$)',
+    re_path(r'view-my-blog/(?P<blog_id>[a-zA-Z0-9_\.-]+$)',
          views.view_my_blog,
          name='view_my_blog'),
     # homepage/ splash page
