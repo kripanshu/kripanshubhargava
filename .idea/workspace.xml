@@ -3,251 +3,252 @@
   <component name="ChangeListManager">
     <list default="true" id="e3e5331b-bc0a-490b-a338-88712eb3ea6c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/css/bootstrap-grid.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/css/bootstrap-grid.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/css/bootstrap-grid.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/css/bootstrap-grid.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/css/bootstrap-grid.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/css/bootstrap-grid.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/css/bootstrap-grid.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/css/bootstrap-reboot.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/css/bootstrap-reboot.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/css/bootstrap-reboot.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/css/bootstrap-reboot.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/css/bootstrap-reboot.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/css/bootstrap-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/css/bootstrap-theme.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/css/bootstrap-theme.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/css/bootstrap-theme.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/css/bootstrap-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/css/bootstrap-theme.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/css/bootstrap-theme.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/css/bootstrap-theme.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/css/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/css/bootstrap.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/css/bootstrap.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/css/bootstrap.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/img/Symbol.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/img/Symbol.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/img/WSW_.fw_.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/img/WSW_.fw_.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/img/comment-processing.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/img/comment-processing.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/img/flag.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/img/flag.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/img/htc_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/img/htc_icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/img/iconHTC.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/img/iconHTC.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/img/me.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/img/me.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/img/share-variant.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/img/share-variant.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/img/thumb-up-outline.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/img/thumb-up-outline.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/js/bootstrap.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/js/bootstrap.bundle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/js/bootstrap.bundle.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/js/bootstrap.bundle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/js/bootstrap.bundle.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/js/bootstrap.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/js/bootstrap.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/js/bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/js/bootstrap.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/js/bootstrap.min.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/js/npm.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/js/npm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/tinymce/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/css/app.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/tinymce/css/app.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/css/foundation.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/tinymce/css/foundation.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/highlight.pack.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/tinymce/highlight.pack.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/tinymce/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/js/app.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/tinymce/js/app.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/js/vendor/foundation.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/tinymce/js/vendor/foundation.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/js/vendor/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/tinymce/js/vendor/jquery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/js/vendor/what-input.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/tinymce/js/vendor/what-input.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/agate.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/agate.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/androidstudio.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/androidstudio.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/arduino-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/arduino-light.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/arta.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/arta.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/ascetic.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/ascetic.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/atelier-cave-dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/atelier-cave-dark.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/atelier-cave-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/atelier-cave-light.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/atelier-dune-dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/atelier-dune-dark.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/atelier-dune-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/atelier-dune-light.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/atelier-estuary-dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/atelier-estuary-dark.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/atelier-estuary-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/atelier-estuary-light.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/atelier-forest-dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/atelier-forest-dark.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/atelier-forest-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/atelier-forest-light.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/atelier-heath-dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/atelier-heath-dark.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/atelier-heath-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/atelier-heath-light.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/atelier-lakeside-dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/atelier-lakeside-dark.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/atelier-lakeside-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/atelier-lakeside-light.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/atelier-plateau-dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/atelier-plateau-dark.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/atelier-plateau-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/atelier-plateau-light.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/atelier-savanna-dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/atelier-savanna-dark.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/atelier-savanna-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/atelier-savanna-light.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/atelier-seaside-dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/atelier-seaside-dark.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/atelier-seaside-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/atelier-seaside-light.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/atelier-sulphurpool-dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/atelier-sulphurpool-dark.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/atelier-sulphurpool-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/atelier-sulphurpool-light.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/atom-one-dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/atom-one-dark.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/atom-one-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/atom-one-light.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/brown-paper.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/brown-paper.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/brown-papersq.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/brown-papersq.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/codepen-embed.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/codepen-embed.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/color-brewer.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/color-brewer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/darcula.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/darcula.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/dark.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/darkula.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/darkula.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/default.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/default.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/docco.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/docco.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/dracula.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/dracula.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/far.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/far.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/foundation.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/foundation.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/github-gist.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/github-gist.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/github.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/github.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/googlecode.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/googlecode.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/grayscale.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/grayscale.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/gruvbox-dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/gruvbox-dark.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/gruvbox-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/gruvbox-light.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/hopscotch.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/hopscotch.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/hybrid.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/hybrid.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/idea.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/idea.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/ir-black.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/ir-black.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/kimbie.dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/kimbie.dark.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/kimbie.light.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/kimbie.light.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/magula.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/magula.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/mono-blue.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/mono-blue.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/monokai-sublime.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/monokai-sublime.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/monokai.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/monokai.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/obsidian.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/obsidian.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/ocean.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/ocean.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/paraiso-dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/paraiso-dark.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/paraiso-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/paraiso-light.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/pojoaque.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/pojoaque.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/pojoaque.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/pojoaque.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/purebasic.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/purebasic.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/qtcreator_dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/qtcreator_dark.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/qtcreator_light.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/qtcreator_light.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/railscasts.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/railscasts.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/rainbow.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/rainbow.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/routeros.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/routeros.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/school-book.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/school-book.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/school-book.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/school-book.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/solarized-dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/solarized-dark.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/solarized-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/solarized-light.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/sunburst.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/sunburst.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/tomorrow-night-blue.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/tomorrow-night-blue.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/tomorrow-night-bright.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/tomorrow-night-bright.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/tomorrow-night-eighties.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/tomorrow-night-eighties.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/tomorrow-night.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/tomorrow-night.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/tomorrow.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/tomorrow.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/vs.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/vs.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/vs2015.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/vs2015.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/xcode.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/xcode.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/xt256.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/xt256.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/zenburn.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/zenburn.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/home/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/home/css/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/css/font-awesome.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/home/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/home/font/fontawesome-webfont-.eot" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/font/fontawesome-webfont-.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/home/font/fontawesome-webfont-v=3.2.1.eot" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/font/fontawesome-webfont-v=3.2.1.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/home/font/fontawesome-webfont-v=3.2.1.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/font/fontawesome-webfont-v=3.2.1.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/home/font/fontawesome-webfont-v=3.2.1.woff" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/font/fontawesome-webfont-v=3.2.1.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/home/font/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/font/fontawesome-webfont.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/home/fonts/glyphicons-halflings-regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/home/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/home/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/home/fonts/glyphicons-halflings-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/home/img/TwoRavens.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/img/TwoRavens.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/home/img/account.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/img/account.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/home/img/angular_certificate.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/img/angular_certificate.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/home/img/back.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/img/back.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/home/img/banking.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/img/banking.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/home/img/banking_analytics.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/img/banking_analytics.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/home/img/certi.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/img/certi.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/home/img/closeIcon.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/img/closeIcon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/home/img/eicher.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/img/eicher.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/home/img/gift-registry.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/img/gift-registry.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/home/img/gmailicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/img/gmailicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/home/img/hacks_to_code.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/img/hacks_to_code.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/home/img/harvard_dataverse.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/img/harvard_dataverse.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/home/img/header-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/img/header-bg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/home/img/htc_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/img/htc_icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/home/img/icons/harvard_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/img/icons/harvard_logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/home/img/icons/icon_behance.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/img/icons/icon_behance.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/home/img/icons/icon_dribbble.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/img/icons/icon_dribbble.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/home/img/icons/icon_facebook.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/img/icons/icon_facebook.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/home/img/icons/icon_linkedin.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/img/icons/icon_linkedin.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/home/img/icons/icon_pdf.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/img/icons/icon_pdf.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/home/img/icons/icon_print.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/img/icons/icon_print.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/home/img/icons/icon_profile.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/img/icons/icon_profile.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/home/img/icons/icon_resume.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/img/icons/icon_resume.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/home/img/icons/icon_testimonials.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/img/icons/icon_testimonials.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/home/img/icons/icon_twitter.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/img/icons/icon_twitter.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/home/img/icons/icon_works.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/img/icons/icon_works.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/home/img/icons/utd_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/img/icons/utd_logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/home/img/meicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/img/meicon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/home/img/navbar.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/img/navbar.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/home/img/phish.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/img/phish.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/home/img/port01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/img/port01.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/home/img/port02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/img/port02.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/home/img/port03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/img/port03.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/home/img/pro1.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/img/pro1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/home/img/pythonIcon.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/img/pythonIcon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/home/img/share-variant.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/img/share-variant.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/home/img/thumb-up-outline.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/img/thumb-up-outline.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/home/js/Chart.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/js/Chart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/home/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/home/js/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/js/jquery.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/home/js/smoothscroll.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/js/smoothscroll.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/materialize/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/static/materialize/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/materialize/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/static/materialize/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/materialize/css/materialize.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/materialize/css/materialize.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/materialize/css/materialize.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/materialize/css/materialize.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/materialize/js/materialize.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/materialize/js/materialize.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/materialize/js/materialize.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/materialize/js/materialize.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/resume/SoftwareEngResume.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/static/resume/SoftwareEngResume.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/resume/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/resume/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/resume/css/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/resume/css/font-awesome.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/resume/css/images/arrow.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/resume/css/images/arrow.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/resume/css/images/overlay.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/resume/css/images/overlay.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/resume/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/resume/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/resume/fonts/FontAwesome.otf" beforeDir="false" afterPath="$PROJECT_DIR$/static/resume/fonts/FontAwesome.otf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/resume/fonts/fontawesome-webfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/static/resume/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/resume/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/resume/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/resume/fonts/fontawesome-webfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/static/resume/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/resume/fonts/fontawesome-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/static/resume/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/resume/fonts/fontawesome-webfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/static/resume/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/resume/images/2ravens.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/resume/images/2ravens.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/resume/images/IMG_3478.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/resume/images/IMG_3478.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/resume/images/Screen Shot 2018-05-21 at 10.40.23 PM.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/resume/images/Screen Shot 2018-05-21 at 10.40.23 PM.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/resume/images/Screen Shot 2018-06-01 at 3.20.31 PM.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/resume/images/Screen Shot 2018-06-01 at 3.20.31 PM.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/resume/images/Symbol.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/resume/images/Symbol.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/resume/images/WSW_.fw_.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/resume/images/WSW_.fw_.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/resume/images/account.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/resume/images/account.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/resume/images/background1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/resume/images/background1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/resume/images/bbot.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/resume/images/bbot.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/resume/images/bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/resume/images/bg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/resume/images/bot.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/resume/images/bot.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/resume/images/closeIcon.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/resume/images/closeIcon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/resume/images/comment-processing.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/resume/images/comment-processing.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/resume/images/flag.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/resume/images/flag.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/resume/images/githubicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/static/resume/images/githubicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/resume/images/gmailicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/static/resume/images/gmailicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/resume/images/hacks_to_code.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/resume/images/hacks_to_code.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/resume/images/me.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/resume/images/me.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/resume/images/meicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/resume/images/meicon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/resume/images/navbar.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/resume/images/navbar.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/resume/images/pic01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/resume/images/pic01.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/resume/images/pic02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/resume/images/pic02.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/resume/images/pic03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/resume/images/pic03.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/resume/images/pic04.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/resume/images/pic04.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/resume/images/pic05.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/resume/images/pic05.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/resume/images/pythonIcon.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/resume/images/pythonIcon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/resume/images/pythonpng.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/resume/images/pythonpng.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/resume/images/share-variant.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/resume/images/share-variant.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/resume/images/thumb-up-outline.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/resume/images/thumb-up-outline.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/resume/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/resume/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/resume/js/breakpoints.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/resume/js/breakpoints.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/resume/js/browser.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/resume/js/browser.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/resume/js/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/resume/js/jquery.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/resume/js/jquery.scrollex.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/resume/js/jquery.scrollex.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/resume/js/jquery.scrolly.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/resume/js/jquery.scrolly.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/resume/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/resume/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/resume/js/typed.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/resume/js/typed.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/resume/js/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/resume/js/util.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/resume/sass/libs/_breakpoints.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/resume/sass/libs/_breakpoints.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/resume/sass/libs/_functions.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/resume/sass/libs/_functions.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/resume/sass/libs/_html-grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/resume/sass/libs/_html-grid.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/resume/sass/libs/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/resume/sass/libs/_mixins.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/resume/sass/libs/_vars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/resume/sass/libs/_vars.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/resume/sass/libs/_vendor.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/resume/sass/libs/_vendor.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_part/static/resume/sass/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/resume/sass/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_website/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_website/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_website/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_website/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/css/bootstrap-grid.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/css/bootstrap-grid.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/css/bootstrap-grid.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/css/bootstrap-grid.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/css/bootstrap-grid.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/css/bootstrap-grid.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/css/bootstrap-grid.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/css/bootstrap-reboot.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/css/bootstrap-reboot.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/css/bootstrap-reboot.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/css/bootstrap-reboot.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/css/bootstrap-reboot.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/css/bootstrap-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/css/bootstrap-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/css/bootstrap-theme.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/css/bootstrap-theme.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/css/bootstrap-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/css/bootstrap-theme.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/css/bootstrap-theme.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/css/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/css/bootstrap.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/css/bootstrap.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/css/bootstrap.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/img/Symbol.png" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/img/Symbol.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/img/WSW_.fw_.png" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/img/WSW_.fw_.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/img/comment-processing.png" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/img/comment-processing.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/img/flag.png" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/img/flag.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/img/htc_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/img/htc_icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/img/iconHTC.png" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/img/iconHTC.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/img/me.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/img/me.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/img/share-variant.png" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/img/share-variant.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/img/thumb-up-outline.png" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/img/thumb-up-outline.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/js/bootstrap.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/js/bootstrap.bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/js/bootstrap.bundle.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/js/bootstrap.bundle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/js/bootstrap.bundle.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/js/bootstrap.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/js/bootstrap.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/js/bootstrap.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/js/bootstrap.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/js/npm.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/js/npm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/tinymce/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/tinymce/css/app.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/css/app.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/tinymce/css/foundation.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/css/foundation.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/tinymce/highlight.pack.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/highlight.pack.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/tinymce/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/tinymce/js/app.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/js/app.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/tinymce/js/vendor/foundation.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/js/vendor/foundation.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/tinymce/js/vendor/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/js/vendor/jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/tinymce/js/vendor/what-input.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/js/vendor/what-input.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/agate.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/agate.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/androidstudio.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/androidstudio.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/arduino-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/arduino-light.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/arta.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/arta.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/ascetic.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/ascetic.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/atelier-cave-dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/atelier-cave-dark.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/atelier-cave-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/atelier-cave-light.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/atelier-dune-dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/atelier-dune-dark.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/atelier-dune-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/atelier-dune-light.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/atelier-estuary-dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/atelier-estuary-dark.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/atelier-estuary-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/atelier-estuary-light.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/atelier-forest-dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/atelier-forest-dark.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/atelier-forest-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/atelier-forest-light.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/atelier-heath-dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/atelier-heath-dark.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/atelier-heath-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/atelier-heath-light.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/atelier-lakeside-dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/atelier-lakeside-dark.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/atelier-lakeside-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/atelier-lakeside-light.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/atelier-plateau-dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/atelier-plateau-dark.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/atelier-plateau-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/atelier-plateau-light.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/atelier-savanna-dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/atelier-savanna-dark.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/atelier-savanna-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/atelier-savanna-light.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/atelier-seaside-dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/atelier-seaside-dark.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/atelier-seaside-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/atelier-seaside-light.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/atelier-sulphurpool-dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/atelier-sulphurpool-dark.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/atelier-sulphurpool-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/atelier-sulphurpool-light.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/atom-one-dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/atom-one-dark.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/atom-one-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/atom-one-light.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/brown-paper.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/brown-paper.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/brown-papersq.png" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/brown-papersq.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/codepen-embed.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/codepen-embed.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/color-brewer.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/color-brewer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/darcula.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/darcula.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/dark.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/darkula.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/darkula.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/default.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/default.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/docco.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/docco.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/dracula.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/dracula.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/far.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/far.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/foundation.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/foundation.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/github-gist.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/github-gist.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/github.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/github.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/googlecode.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/googlecode.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/grayscale.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/grayscale.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/gruvbox-dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/gruvbox-dark.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/gruvbox-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/gruvbox-light.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/hopscotch.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/hopscotch.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/hybrid.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/hybrid.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/idea.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/idea.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/ir-black.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/ir-black.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/kimbie.dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/kimbie.dark.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/kimbie.light.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/kimbie.light.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/magula.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/magula.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/mono-blue.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/mono-blue.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/monokai-sublime.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/monokai-sublime.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/monokai.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/monokai.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/obsidian.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/obsidian.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/ocean.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/ocean.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/paraiso-dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/paraiso-dark.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/paraiso-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/paraiso-light.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/pojoaque.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/pojoaque.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/pojoaque.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/pojoaque.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/purebasic.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/purebasic.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/qtcreator_dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/qtcreator_dark.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/qtcreator_light.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/qtcreator_light.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/railscasts.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/railscasts.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/rainbow.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/rainbow.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/routeros.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/routeros.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/school-book.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/school-book.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/school-book.png" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/school-book.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/solarized-dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/solarized-dark.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/solarized-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/solarized-light.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/sunburst.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/sunburst.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/tomorrow-night-blue.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/tomorrow-night-blue.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/tomorrow-night-bright.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/tomorrow-night-bright.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/tomorrow-night-eighties.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/tomorrow-night-eighties.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/tomorrow-night.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/tomorrow-night.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/tomorrow.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/tomorrow.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/vs.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/vs.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/vs2015.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/vs2015.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/xcode.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/xcode.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/xt256.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/xt256.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hacks-to-code/tinymce/styles/zenburn.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/styles/zenburn.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/home/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/home/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/home/css/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/home/css/font-awesome.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/home/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/home/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/home/font/fontawesome-webfont-.eot" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/home/font/fontawesome-webfont-.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/home/font/fontawesome-webfont-v=3.2.1.eot" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/home/font/fontawesome-webfont-v=3.2.1.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/home/font/fontawesome-webfont-v=3.2.1.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/home/font/fontawesome-webfont-v=3.2.1.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/home/font/fontawesome-webfont-v=3.2.1.woff" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/home/font/fontawesome-webfont-v=3.2.1.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/home/font/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/home/font/fontawesome-webfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/home/fonts/glyphicons-halflings-regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/home/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/home/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/home/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/home/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/home/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/home/fonts/glyphicons-halflings-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/home/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/home/img/TwoRavens.png" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/home/img/TwoRavens.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/home/img/account.png" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/home/img/account.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/home/img/angular_certificate.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/home/img/angular_certificate.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/home/img/back.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/home/img/back.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/home/img/banking.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/home/img/banking.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/home/img/banking_analytics.png" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/home/img/banking_analytics.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/home/img/certi.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/home/img/certi.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/home/img/closeIcon.png" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/home/img/closeIcon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/home/img/eicher.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/home/img/eicher.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/home/img/gift-registry.png" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/home/img/gift-registry.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/home/img/gmailicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/home/img/gmailicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/home/img/hacks_to_code.png" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/home/img/hacks_to_code.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/home/img/harvard_dataverse.png" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/home/img/harvard_dataverse.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/home/img/header-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/home/img/header-bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/home/img/htc_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/home/img/htc_icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/home/img/icons/harvard_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/home/img/icons/harvard_logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/home/img/icons/icon_behance.png" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/home/img/icons/icon_behance.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/home/img/icons/icon_dribbble.png" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/home/img/icons/icon_dribbble.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/home/img/icons/icon_facebook.png" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/home/img/icons/icon_facebook.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/home/img/icons/icon_linkedin.png" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/home/img/icons/icon_linkedin.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/home/img/icons/icon_pdf.png" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/home/img/icons/icon_pdf.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/home/img/icons/icon_print.png" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/home/img/icons/icon_print.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/home/img/icons/icon_profile.png" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/home/img/icons/icon_profile.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/home/img/icons/icon_resume.png" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/home/img/icons/icon_resume.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/home/img/icons/icon_testimonials.png" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/home/img/icons/icon_testimonials.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/home/img/icons/icon_twitter.png" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/home/img/icons/icon_twitter.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/home/img/icons/icon_works.png" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/home/img/icons/icon_works.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/home/img/icons/utd_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/home/img/icons/utd_logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/home/img/meicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/home/img/meicon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/home/img/navbar.png" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/home/img/navbar.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/home/img/phish.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/home/img/phish.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/home/img/port01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/home/img/port01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/home/img/port02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/home/img/port02.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/home/img/port03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/home/img/port03.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/home/img/pro1.png" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/home/img/pro1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/home/img/pythonIcon.png" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/home/img/pythonIcon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/home/img/share-variant.png" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/home/img/share-variant.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/home/img/thumb-up-outline.png" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/home/img/thumb-up-outline.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/home/js/Chart.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/home/js/Chart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/home/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/home/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/home/js/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/home/js/jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/home/js/smoothscroll.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/home/js/smoothscroll.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/materialize/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/materialize/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/materialize/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/materialize/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/materialize/css/materialize.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/materialize/css/materialize.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/materialize/css/materialize.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/materialize/css/materialize.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/materialize/js/materialize.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/materialize/js/materialize.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/materialize/js/materialize.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/materialize/js/materialize.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/resume/SoftwareEngResume.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/resume/SoftwareEngResume.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/resume/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/resume/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/resume/css/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/resume/css/font-awesome.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/resume/css/images/arrow.svg" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/resume/css/images/arrow.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/resume/css/images/overlay.png" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/resume/css/images/overlay.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/resume/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/resume/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/resume/fonts/FontAwesome.otf" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/resume/fonts/FontAwesome.otf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/resume/fonts/fontawesome-webfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/resume/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/resume/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/resume/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/resume/fonts/fontawesome-webfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/resume/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/resume/fonts/fontawesome-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/resume/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/resume/fonts/fontawesome-webfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/resume/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/resume/images/2ravens.png" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/resume/images/2ravens.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/resume/images/IMG_3478.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/resume/images/IMG_3478.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/resume/images/Screen Shot 2018-05-21 at 10.40.23 PM.png" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/resume/images/Screen Shot 2018-05-21 at 10.40.23 PM.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/resume/images/Screen Shot 2018-06-01 at 3.20.31 PM.png" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/resume/images/Screen Shot 2018-06-01 at 3.20.31 PM.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/resume/images/Symbol.png" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/resume/images/Symbol.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/resume/images/WSW_.fw_.png" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/resume/images/WSW_.fw_.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/resume/images/account.png" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/resume/images/account.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/resume/images/background1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/resume/images/background1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/resume/images/bbot.png" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/resume/images/bbot.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/resume/images/bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/resume/images/bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/resume/images/bot.png" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/resume/images/bot.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/resume/images/closeIcon.png" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/resume/images/closeIcon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/resume/images/comment-processing.png" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/resume/images/comment-processing.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/resume/images/flag.png" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/resume/images/flag.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/resume/images/githubicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/resume/images/githubicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/resume/images/gmailicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/resume/images/gmailicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/resume/images/hacks_to_code.png" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/resume/images/hacks_to_code.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/resume/images/me.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/resume/images/me.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/resume/images/meicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/resume/images/meicon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/resume/images/navbar.png" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/resume/images/navbar.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/resume/images/pic01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/resume/images/pic01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/resume/images/pic02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/resume/images/pic02.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/resume/images/pic03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/resume/images/pic03.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/resume/images/pic04.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/resume/images/pic04.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/resume/images/pic05.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/resume/images/pic05.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/resume/images/pythonIcon.png" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/resume/images/pythonIcon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/resume/images/pythonpng.png" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/resume/images/pythonpng.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/resume/images/share-variant.png" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/resume/images/share-variant.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/resume/images/thumb-up-outline.png" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/resume/images/thumb-up-outline.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/resume/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/resume/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/resume/js/breakpoints.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/resume/js/breakpoints.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/resume/js/browser.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/resume/js/browser.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/resume/js/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/resume/js/jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/resume/js/jquery.scrollex.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/resume/js/jquery.scrollex.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/resume/js/jquery.scrolly.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/resume/js/jquery.scrolly.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/resume/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/resume/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/resume/js/typed.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/resume/js/typed.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/resume/js/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/resume/js/util.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/resume/sass/libs/_breakpoints.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/resume/sass/libs/_breakpoints.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/resume/sass/libs/_functions.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/resume/sass/libs/_functions.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/resume/sass/libs/_html-grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/resume/sass/libs/_html-grid.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/resume/sass/libs/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/resume/sass/libs/_mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/resume/sass/libs/_vars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/resume/sass/libs/_vars.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/resume/sass/libs/_vendor.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/resume/sass/libs/_vendor.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/resume/sass/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web_part/static/resume/sass/main.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -280,7 +281,7 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hacks_to_code/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1335">
+            <state relative-caret-position="166">
               <caret line="89" selection-start-line="89" selection-end-line="89" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
@@ -325,20 +326,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hacks_to_code/templates/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="37" lean-forward="true" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+            <state relative-caret-position="-800">
+              <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/my_website/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="128" column="18" lean-forward="true" selection-start-line="128" selection-start-column="18" selection-end-line="128" selection-end-column="18" />
+            <state relative-caret-position="233">
+              <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -364,8 +365,11 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my_website/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="265">
+              <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
+              <folding>
+                <element signature="e#634#666#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -402,6 +406,7 @@
       <find>social-d</find>
       <find>soci</find>
       <find>krip</find>
+      <find>web_part</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -426,14 +431,12 @@
         <option value="$PROJECT_DIR$/hacks_to_code/templates/write_blog_description.html" />
         <option value="$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/get_data.js" />
         <option value="$PROJECT_DIR$/hacks_to_code/admin.py" />
-        <option value="$PROJECT_DIR$/my_website/urls.py" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/hacks_to_code/templates/base.html" />
         <option value="$PROJECT_DIR$/web_part/static/home/css/main.css" />
         <option value="$PROJECT_DIR$/web_part/static/materialize/css/materialize.css" />
         <option value="$PROJECT_DIR$/hacks_to_code/forms.py" />
         <option value="$PROJECT_DIR$/hacks_to_code/templates/info.html" />
-        <option value="$PROJECT_DIR$/my_website/settings.py" />
         <option value="$PROJECT_DIR$/web_part/static/hacks-to-code/css/style.css" />
         <option value="$PROJECT_DIR$/web_part/static/hacks-to-code/js/main.js" />
         <option value="$PROJECT_DIR$/hacks_to_code/templates/my_blog.html" />
@@ -444,6 +447,8 @@
         <option value="$PROJECT_DIR$/hacks_to_code/job_util.py" />
         <option value="$PROJECT_DIR$/hacks_to_code/views.py" />
         <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/my_website/urls.py" />
+        <option value="$PROJECT_DIR$/my_website/settings.py" />
       </list>
     </option>
   </component>
@@ -477,6 +482,11 @@
             <path>
               <item name="my_website" type="b2602c69:ProjectViewProjectNode" />
               <item name="my_website" type="462c0819:PsiDirectoryNode" />
+              <item name="hacks_to_code" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my_website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my_website" type="462c0819:PsiDirectoryNode" />
               <item name="my_website" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -503,11 +513,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web_part" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/web_part/static/hacks-to-code/img" />
       <recent name="$PROJECT_DIR$/web_part/static" />
       <recent name="$PROJECT_DIR$/hacks_to_code/templates" />
-      <recent name="$PROJECT_DIR$/web_part/static/hacks-to-code" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/web_part/static/hacks-to-code/img" />
@@ -845,14 +855,30 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Salesforce" order="14" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="5" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Debug Logs" order="7" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19098713" />
+      <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32969698" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32506528" />
+      <window_info anchor="right" id="R Packages" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="R Graphics" order="4" />
       <window_info anchor="bottom" id="Execute Anonymous" order="13" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50143063" side_tool="true" weight="0.41575757" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3272727" />
+      <window_info anchor="bottom" id="Terminal" order="15" sideWeight="0.4985694" visible="true" weight="0.41575757" />
+      <window_info anchor="bottom" id="Python Console" order="11" weight="0.3298292" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1066,13 +1092,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/get_data.js" />
-    <entry file="file://$PROJECT_DIR$/my_website/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1097,13 +1116,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/hacks-to-code/js/bootstrap.js">
+    <entry file="file://$PROJECT_DIR$/web_part/static/hacks-to-code/js/bootstrap.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-99" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hacks_to_code/templates/base.html" />
-    <entry file="file://$PROJECT_DIR$/static/materialize/css/materialize.css">
+    <entry file="file://$PROJECT_DIR$/web_part/static/materialize/css/materialize.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-342">
           <caret line="4278" lean-forward="true" selection-start-line="4278" selection-end-line="4278" />
@@ -1124,7 +1143,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/home/css/main.css">
+    <entry file="file://$PROJECT_DIR$/web_part/static/home/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="427">
           <caret line="166" column="33" selection-start-line="166" selection-start-column="33" selection-end-line="166" selection-end-column="33" />
@@ -1138,14 +1157,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/hacks-to-code/css/style.css">
+    <entry file="file://$PROJECT_DIR$/web_part/static/hacks-to-code/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="235">
           <caret line="76" column="13" lean-forward="true" selection-start-line="76" selection-start-column="13" selection-end-line="76" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/hacks-to-code/js/main.js">
+    <entry file="file://$PROJECT_DIR$/web_part/static/hacks-to-code/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret lean-forward="true" />
@@ -1224,16 +1243,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hacks_to_code/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1335">
-          <caret line="89" selection-start-line="89" selection-end-line="89" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -1248,17 +1257,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my_website/settings.py">
+    <entry file="file://$PROJECT_DIR$/hacks_to_code/templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="128" column="18" lean-forward="true" selection-start-line="128" selection-start-column="18" selection-end-line="128" selection-end-column="18" />
+        <state relative-caret-position="-800">
+          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hacks_to_code/templates/home.html">
+    <entry file="file://$PROJECT_DIR$/my_website/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="37" lean-forward="true" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+        <state relative-caret-position="265">
+          <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
+          <folding>
+            <element signature="e#634#666#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hacks_to_code/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="89" selection-start-line="89" selection-end-line="89" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_website/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
         </state>
       </provider>
     </entry>

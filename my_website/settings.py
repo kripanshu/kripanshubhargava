@@ -13,6 +13,7 @@ https://docs.djangoproject.com/en/2.0/ref/settings/
 import os
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+print("This is base dir",BASE_DIR)
 
 
 # Quick-start development settings - unsuitable for production
@@ -24,8 +25,8 @@ SECRET_KEY = ')4^lt=1gsfqonkoh7bbnh5jsq8w#l8k4k)+@ni@z8l=m%)f6$1'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+# ALLOWED_HOSTS = ['kripanshubhargava.me','142.93.121.245']
 ALLOWED_HOSTS = []
-
 
 # Application definition
 
@@ -123,7 +124,9 @@ USE_TZ = True
 STATIC_URL = '/static/'
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'hacks_to_code/storage')
-STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
+STATIC_DIR = os.path.join(BASE_DIR,'web_part/static/')
+print("Static root", STATIC_ROOT)
 
 TINYMCE_DEFAULT_CONFIG = {
     'height': 360,
