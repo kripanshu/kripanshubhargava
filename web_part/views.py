@@ -12,4 +12,4 @@ from django.http import \
 
 def view_homepage(request):
     """Opens the homepage/resume"""
-    return render(request,'index.html')
+    return render(request, 'web_part/index.html')

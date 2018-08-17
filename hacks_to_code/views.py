@@ -74,7 +74,7 @@ def view_write_blog_details(request):
         form = BlogDescriptionForms()
         #   return JsonResponse({'errors':form.errors})
 
-    return render(request, 'write_blog.html', {'form': form})
+    return render(request, 'hacks_to_code/write_blog.html', {'form': form})
 
 
 def view_homepage_blog_list(request, topic_id):
@@ -94,7 +94,7 @@ def view_homepage_blog_list(request, topic_id):
                     'success_list': False,
                     'error': 'Not Found',
                     'message': user_detail}
-        return render(request, 'error_page.html', user_msg)
+        return render(request, 'hacks_to_code/error_page.html', user_msg)
 
     if not success_user:
         user_msg = {'success_topic': True,
@@ -104,7 +104,7 @@ def view_homepage_blog_list(request, topic_id):
                     'topics_list': topic_list,
                     'topics': topic
                     }
-        return render(request, 'home.html', user_msg)
+        return render(request, 'hacks_to_code/home.html', user_msg)
 
     if not success_topic:
         user_msg = {'success_user': True,
@@ -114,7 +114,7 @@ def view_homepage_blog_list(request, topic_id):
                     'user_detail': user_detail,
                     'topics_list': topic_list}
 
-        return render(request, 'home.html', user_msg)
+        return render(request, 'hacks_to_code/home.html', user_msg)
 
     user_msg = {
                 'success_user': True,
@@ -126,7 +126,7 @@ def view_homepage_blog_list(request, topic_id):
                 }
     print("topic list ",topic)
     print("topic", topic_list)
-    return render(request, 'home.html', user_msg)
+    return render(request, 'hacks_to_code/home.html', user_msg)
 
 
 def view_my_blog(request, blog_id):
@@ -168,9 +168,9 @@ def view_my_blog(request, blog_id):
     print(topic_data.as_dict())
     print('--' * 40)
     print("url ", user_details.profile_pic.url)
-    return render(request, 'my_blog.html', {'blog_data':blog_details, 'user_data':user_details, 'topic_data':topic_data, 'tags':tags})
+    return render(request, 'hacks_to_code/my_blog.html', {'blog_data':blog_details, 'user_data':user_details, 'topic_data':topic_data, 'tags':tags})
 
 
 def get_info(request):
     """ just show info page"""
-    return render(request,'info.html')
+    return render(request, 'hacks_to_code/info.html')
