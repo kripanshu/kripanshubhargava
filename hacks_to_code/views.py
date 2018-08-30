@@ -84,7 +84,7 @@ def view_homepage_blog_list(request, topic_id):
         print('topic _ id ---------', topic_id)
         topic_id = topic_id
 
-    success_user, user_detail = JobUtil.get_user_details('Kripanshu')
+    success_user, user_detail = JobUtil.get_user_details_by_username('Kripanshu')
     success_topic_list, topic_list = JobUtil.get_topics_details()
     success_topic, topic = JobUtil.get_blog_list_by_id(topic_id)
 
@@ -151,7 +151,7 @@ def view_my_blog(request, blog_id):
     print('--' * 40)
 
 
-    success_user, user_details = JobUtil.get_user_details(blog_details.as_dict()['user_Id_id'])
+    success_user, user_details = JobUtil.get_user_details_by_id(blog_details.as_dict()['user_Id_id'])
     if not success_user:
         user_msg = dict(success=False,
                         error=user_details)

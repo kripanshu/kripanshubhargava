@@ -1,54 +1,6 @@
-{% load static %}
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="description" content="">
-      <meta name="author" content="">
-       <link rel="icon" type="image/png" href="{% static 'resume/images/Symbol.png' %}" />
-      <link rel="shortcut icon" href="{% static "home/img/htc_icon.png" %}">
-
-      <title>Hacks To Code</title>
-      <!-- Bootstrap core CSS -->
-{#      <link href="{% static "hacks-to-code/css/bootstrap.css" %}" rel="stylesheet">#}
-      <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
-      <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
-      <script src="{% static "home/js/jquery.min.js" %}"></script>
-{#      <script src="{% static "hacks-to-code/js/bootstrap.js" %}"></script>#}
-      <script type="text/javascript" src="{% static "home/js/smoothscroll.js" %}"></script>
-       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-{#        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">#}
-            <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-    <link type="text/css" rel="stylesheet" href="{% static 'materialize/css/materialize.min.css' %}" media="screen,projection"/>
-      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <title>Blog Description Form</title>
-</head>
-<body>
-<script type="text/javascript" src="{% static 'materialize/js/materialize.min.js' %}"></script>
-<nav class="nav-extended black">
-    <div class="nav-wrapper">
-       <a href="{% url 'view_homepage' %}">
-         <img src="{% static "hacks-to-code/img/htc_icon.png" %}" width="75px" height="50px" style="margin-left: 3%; margin-top: 1%" alt="">
-         </a>
-    </div>
-  </nav>
-<br>
-<br>
-
-
-{#<div class="container">#}
-{#<div class="card-section" style="width: 112rem;">#}
-{#    <div class="card-body">#}
-{#    {{ form.media }}#}
-{# <form  action=""  method="POST" enctype="multipart/form-data">#}
-{#            {% csrf_token %}#}
-{#            {{ form.as_table }}#}
-{#        <input class="btn btn-primary" type="submit" value="Submit" />#}
-
-{#HERE STARTS THE BEST #}
-
-
+{% extends 'hacks_to_code/base.html' %}
+{% block content %}
+    <br>
     <div class="row">
       {{ form.media }}
     <form class="col s10 offset-l2" action=""  method="POST" enctype="multipart/form-data">
@@ -172,15 +124,4 @@
  </form>
 
 </div>
-
-
-</body>
-<link href="{% static "hacks-to-code/tinymce/styles/github.css" %}" rel="stylesheet">
-<script src="{% static "hacks-to-code/tinymce/highlight.pack.js" %}"></script>
-<script>hljs.initHighlightingOnLoad();</script>
-<script>
-    $(document).ready(function(){
-    $('select').formSelect();
-  });
-</script>
-</html>
+{% endblock %}
