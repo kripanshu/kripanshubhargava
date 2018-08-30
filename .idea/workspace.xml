@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3e5331b-bc0a-490b-a338-88712eb3ea6c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hacks_to_code/job_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/hacks_to_code/job_util.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hacks_to_code/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/hacks_to_code/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_website/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_website/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/hacks_to_code/error_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/hacks_to_code/error_page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/hacks_to_code/info.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/hacks_to_code/info.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/hacks_to_code/my_blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/hacks_to_code/my_blog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/hacks_to_code/write_blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/hacks_to_code/write_blog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/hacks_to_code/write_blog_description.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/hacks_to_code/write_blog_description.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/web_part/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/web_part/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/hacks_to_code/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/hacks_to_code/home.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,11 +20,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/web_part/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="43" column="417" selection-start-line="43" selection-start-column="417" selection-end-line="43" selection-end-column="417" />
+            <state relative-caret-position="374">
+              <caret line="25" column="31" lean-forward="true" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/hacks_to_code/home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="136" column="96" selection-start-line="136" selection-start-column="96" selection-end-line="136" selection-end-column="96" />
             </state>
           </provider>
         </entry>
@@ -44,15 +43,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
               <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/hacks_to_code/base.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="60" column="6" lean-forward="true" selection-start-line="60" selection-start-column="6" selection-end-line="60" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -203,7 +193,6 @@
         <option value="$PROJECT_DIR$/web_part/templates/index.html" />
         <option value="$PROJECT_DIR$/templates/registration/login.html" />
         <option value="$PROJECT_DIR$/templates/registration/signup.html" />
-        <option value="$PROJECT_DIR$/templates/hacks_to_code/home.html" />
         <option value="$PROJECT_DIR$/my_website/settings.py" />
         <option value="$PROJECT_DIR$/templates/hacks_to_code/info.html" />
         <option value="$PROJECT_DIR$/templates/hacks_to_code/write_blog.html" />
@@ -214,6 +203,7 @@
         <option value="$PROJECT_DIR$/hacks_to_code/views.py" />
         <option value="$PROJECT_DIR$/templates/hacks_to_code/my_blog.html" />
         <option value="$PROJECT_DIR$/templates/web_part/index.html" />
+        <option value="$PROJECT_DIR$/templates/hacks_to_code/home.html" />
       </list>
     </option>
   </component>
@@ -259,6 +249,12 @@
               <item name="my_website" type="b2602c69:ProjectViewProjectNode" />
               <item name="my_website" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my_website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my_website" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="hacks_to_code" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="my_website" type="b2602c69:ProjectViewProjectNode" />
@@ -647,7 +643,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="django-line">
           <url>file://$PROJECT_DIR$/templates/hacks_to_code/home.html</url>
-          <line>146</line>
+          <line>150</line>
         </line-breakpoint>
       </breakpoints>
       <option name="time" value="1" />
@@ -915,13 +911,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/hacks_to_code/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="43" column="1" lean-forward="true" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my_website/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
@@ -1007,8 +996,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/web_part/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="43" column="417" selection-start-line="43" selection-start-column="417" selection-end-line="43" selection-end-column="417" />
+        <state relative-caret-position="374">
+          <caret line="25" column="31" lean-forward="true" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/hacks_to_code/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="136" column="96" selection-start-line="136" selection-start-column="96" selection-end-line="136" selection-end-column="96" />
         </state>
       </provider>
     </entry>
