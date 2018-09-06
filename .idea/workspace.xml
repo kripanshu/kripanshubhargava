@@ -24,7 +24,7 @@
         <entry file="file://$PROJECT_DIR$/templates/web_part/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="184">
-              <caret line="65" column="83" selection-start-line="65" selection-start-column="83" selection-end-line="65" selection-end-column="83" />
+              <caret line="65" column="103" selection-start-line="65" selection-start-column="103" selection-end-line="65" selection-end-column="103" />
               <folding>
                 <element signature="e#3799#3830#0#HTML" expanded="true" />
                 <element signature="e#7532#7552#0#HTML" expanded="true" />
@@ -1055,7 +1055,7 @@
     <entry file="file://$PROJECT_DIR$/templates/web_part/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
-          <caret line="65" column="83" selection-start-line="65" selection-start-column="83" selection-end-line="65" selection-end-column="83" />
+          <caret line="65" column="103" selection-start-line="65" selection-start-column="103" selection-end-line="65" selection-end-column="103" />
           <folding>
             <element signature="e#3799#3830#0#HTML" expanded="true" />
             <element signature="e#7532#7552#0#HTML" expanded="true" />
