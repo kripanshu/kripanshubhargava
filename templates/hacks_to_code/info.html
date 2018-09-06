@@ -1,4 +1,132 @@
+
 {% extends 'hacks_to_code/base.html' %}
+{% load static %}
 {% block content %}
+
+<div class="row">
+    <div class="col s12 m10 offset-l1">
+      <div class="card white light">
+        <div class="card-content text-darken-1">
+            <span style="float: left" class="card-title"><img src="{% static 'hacks-to-code/img/htc_icon.png' %}" style="width: 40px; height: 40px"></span>
+          <span style="float: left; margin-left: 12px; margin-top:6px " class="card-title">Hacks To Code</span>
+            <br>
+
+            <br>
+              <p style="float: left">Personal Technical Blog where I write about Machine Learning, Statistical Learning, Data visualization,
+                  and other topics. I created this for myself to write blogs and share information with people
+                  but I am going to make it into tech blog where people can share their knowledge into these specific domains. </p>
+            <br>
+              <br>
+
+        </div>
+        <div class="card-action">
+          <a href="https://github.com/kripanshu/kripanshubhargava/tree/master/hacks_to_code"><i class="fab fa-github"></i>  GitHub Repository</a>
+        </div>
+      </div>
+    </div>
+  </div>
+<div class="row">
+    <div class="col s12 m10 offset-l1">
+      <div class="card white darken-1">
+        <div class="card-content dark-grey-text">
+          <span class="card-title">Project Scope</span>
+            <ul>
+                <li>
+                   Allow Users to read as well as write blogs about the specific domains.
+                </li>
+                <li>
+                   Giving API endpoint so that any one can use it to create plugins, android/ios applications, and other purposes.
+                </li>
+                <li>
+                    Giving many features like follow, comment, like, report the blog.
+                </li>
+                <li>
+                    Register and Login feature.
+                </li>
+            </ul>
+
+            <br>
+
+             <span class="card-title">Project Current Status</span>
+            <ul>
+                <li>
+                  <p style="color: red; font-family: 'Fjalla One', sans-serif;">Sorry, having problem with the static file, images will be back for the user profile and icons ( soon ).</p>
+                </li>
+                 <li>
+                  Anyone can read the blogs, switch between the topics, share the blog.
+                </li>
+                <li>
+                  Currently one can write a blog and admin will review it and then publish it ( until login feature is there).
+                </li>
+
+            </ul>
+
+<br>
+             <span class="card-title">Project Progress</span>
+            <ul>
+                <li>
+              <div class="progress">
+                  <div class="determinate" style="width: 60%"></div>
+              </div>
+                </li>
+            </ul>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+<br>
+<br>
+<div class="row">
+    <div class="col s4 m10 offset-l5">
+<div style="margin-left: 3%">
+    <div class="preloader-wrapper big active">
+      <div class="spinner-layer spinner-blue">
+        <div class="circle-clipper left">
+          <div class="circle"></div>
+        </div><div class="gap-patch">
+          <div class="circle"></div>
+        </div><div class="circle-clipper right">
+          <div class="circle"></div>
+        </div>
+      </div>
+
+      <div class="spinner-layer spinner-red">
+        <div class="circle-clipper left">
+          <div class="circle"></div>
+        </div><div class="gap-patch">
+          <div class="circle"></div>
+        </div><div class="circle-clipper right">
+          <div class="circle"></div>
+        </div>
+      </div>
+
+      <div class="spinner-layer spinner-yellow">
+        <div class="circle-clipper left">
+          <div class="circle"></div>
+        </div><div class="gap-patch">
+          <div class="circle"></div>
+        </div><div class="circle-clipper right">
+          <div class="circle"></div>
+        </div>
+      </div>
+
+      <div class="spinner-layer spinner-green">
+        <div class="circle-clipper left">
+          <div class="circle"></div>
+        </div><div class="gap-patch">
+          <div class="circle"></div>
+        </div><div class="circle-clipper right">
+          <div class="circle"></div>
+        </div>
+      </div>
+    </div>
+     </div>
+        <br>
+<h5 style="margin-left: 0;font-family: 'Fjalla One', sans-serif;">Still Developing</h5>
+
+    </div>
+</div>
 
 {% endblock %}

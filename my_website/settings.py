@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'web_part',
     'hacks_to_code',
     'tinymce',
+    'jobbot'
 ]
 
 MIDDLEWARE = [

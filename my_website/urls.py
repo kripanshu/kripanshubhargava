@@ -27,6 +27,6 @@ urlpatterns = [
     path('', include('web_part.urls')),
     url(r'^hacks-to-code/', include('hacks_to_code.urls')),
     url(r'^tinymce/', include('tinymce.urls')),
-
+    url(r'^jobbot/', include('jobbot.urls')),
 ]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 

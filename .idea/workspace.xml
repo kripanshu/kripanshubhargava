@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3e5331b-bc0a-490b-a338-88712eb3ea6c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/web_part/static/resume/images/udemy.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_website/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_website/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_website/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_website/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/hacks_to_code/info.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/hacks_to_code/info.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/web_part/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/web_part/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/" />
@@ -22,11 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/web_part/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="172" column="51" selection-start-line="172" selection-start-column="51" selection-end-line="172" selection-end-column="51" />
+            <state relative-caret-position="936">
+              <caret line="78" column="176" selection-start-line="78" selection-start-column="176" selection-end-line="78" selection-end-column="176" />
               <folding>
                 <element signature="e#3799#3830#0#HTML" expanded="true" />
                 <element signature="e#7532#7552#0#HTML" expanded="true" />
@@ -41,34 +42,47 @@
                 <element signature="e#8553#8573#0#HTML" expanded="true" />
                 <element signature="e#9009#9029#0#HTML" expanded="true" />
                 <element signature="e#9084#9115#0#HTML" expanded="true" />
+                <element signature="e#8688#8721#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jobbot/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/hacks_to_code/home.html">
+        <entry file="file://$PROJECT_DIR$/templates/jobbot/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2070">
-              <caret line="138" column="18" selection-start-line="138" selection-start-column="18" selection-end-line="138" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="write_blog_description.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/hacks_to_code/write_blog_description.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="251">
+              <caret line="146" column="64" selection-start-line="146" selection-start-column="26" selection-end-line="146" selection-end-column="64" />
+              <folding>
+                <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h5#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hacks_to_code/views.py">
+        <entry file="file://$PROJECT_DIR$/jobbot/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1215">
-              <caret line="92" column="20" selection-start-line="92" selection-start-column="20" selection-end-line="92" selection-end-column="20" />
+            <state relative-caret-position="180">
+              <caret line="12" column="46" lean-forward="true" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
               </folding>
@@ -76,50 +90,49 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="job_util.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hacks_to_code/job_util.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="28" column="30" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hacks_to_code/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1335">
-              <caret line="97" column="13" selection-start-line="97" selection-start-column="13" selection-end-line="97" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="my_blog.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/hacks_to_code/my_blog.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1335">
-              <caret line="89" column="14" selection-start-line="89" selection-start-column="14" selection-end-line="89" selection-end-column="14" />
+            <state relative-caret-position="278">
+              <caret line="78" column="114" selection-start-line="78" selection-start-column="76" selection-end-line="78" selection-end-column="114" />
               <folding>
-                <element signature="e#6683#6706#0#HTML" expanded="true" />
+                <element signature="e#2956#2983#0#HTML" expanded="true" />
+                <element signature="e#3665#3742#0#HTML" expanded="true" />
+                <element signature="e#5811#5857#0#HTML" expanded="true" />
+                <element signature="e#6003#6049#0#HTML" expanded="true" />
+                <element signature="e#6146#6192#0#HTML" expanded="true" />
+                <element signature="e#6692#6715#0#HTML" expanded="true" />
+                <element signature="e#6950#6980#0#HTML" expanded="true" />
+                <element signature="e#7294#7316#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="write_blog.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/hacks_to_code/write_blog.html">
+      <file leaf-file-name="info.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/hacks_to_code/info.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+            <state relative-caret-position="186">
+              <caret line="52" column="78" selection-start-line="52" selection-start-column="78" selection-end-line="52" selection-end-column="78" />
+              <folding>
+                <element signature="e#223#242#0#HTML" expanded="true" />
+                <element signature="e#311#344#0#HTML" expanded="true" />
+                <element signature="e#369#424#0#HTML" expanded="true" />
+                <element signature="e#510#529#0#HTML" expanded="true" />
+                <element signature="e#2103#2161#0#HTML" expanded="true" />
+                <element signature="e#2221#2239#0#HTML" expanded="true" />
+                <element signature="e#2430#2453#0#HTML" expanded="true" />
+                <element signature="e#3807#3868#0#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="info.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/hacks_to_code/info.html">
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/hacks_to_code/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="3" selection-end-column="14" />
+            <state relative-caret-position="201">
+              <caret line="29" column="18" lean-forward="true" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -196,13 +209,10 @@
         <option value="$PROJECT_DIR$/hacks_to_code/urls.py" />
         <option value="$PROJECT_DIR$/hacks_to_code/models.py" />
         <option value="$PROJECT_DIR$/hacks_to_code/templates/home.html" />
-        <option value="$PROJECT_DIR$/my_website/urls.py" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/web_part/templates/index.html" />
         <option value="$PROJECT_DIR$/templates/registration/login.html" />
         <option value="$PROJECT_DIR$/templates/registration/signup.html" />
-        <option value="$PROJECT_DIR$/my_website/settings.py" />
-        <option value="$PROJECT_DIR$/templates/hacks_to_code/info.html" />
         <option value="$PROJECT_DIR$/templates/hacks_to_code/write_blog.html" />
         <option value="$PROJECT_DIR$/templates/hacks_to_code/base.html" />
         <option value="$PROJECT_DIR$/templates/hacks_to_code/error_page.html" />
@@ -211,7 +221,13 @@
         <option value="$PROJECT_DIR$/hacks_to_code/views.py" />
         <option value="$PROJECT_DIR$/templates/hacks_to_code/my_blog.html" />
         <option value="$PROJECT_DIR$/templates/hacks_to_code/home.html" />
+        <option value="$PROJECT_DIR$/my_website/settings.py" />
+        <option value="$PROJECT_DIR$/my_website/urls.py" />
+        <option value="$PROJECT_DIR$/jobbot/urls.py" />
+        <option value="$PROJECT_DIR$/jobbot/views.py" />
         <option value="$PROJECT_DIR$/templates/web_part/index.html" />
+        <option value="$PROJECT_DIR$/templates/jobbot/home.html" />
+        <option value="$PROJECT_DIR$/templates/hacks_to_code/info.html" />
       </list>
     </option>
   </component>
@@ -246,66 +262,28 @@
             <path>
               <item name="my_website" type="b2602c69:ProjectViewProjectNode" />
               <item name="my_website" type="462c0819:PsiDirectoryNode" />
+              <item name="jobbot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my_website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my_website" type="462c0819:PsiDirectoryNode" />
               <item name="my_website" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="my_website" type="b2602c69:ProjectViewProjectNode" />
               <item name="my_website" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="my_website" type="b2602c69:ProjectViewProjectNode" />
               <item name="my_website" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="resume" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my_website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my_website" type="462c0819:PsiDirectoryNode" />
-              <item name="web_part" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my_website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my_website" type="462c0819:PsiDirectoryNode" />
-              <item name="web_part" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="hacks_to_code" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="my_website" type="b2602c69:ProjectViewProjectNode" />
               <item name="my_website" type="462c0819:PsiDirectoryNode" />
               <item name="web_part" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="hacks-to-code" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my_website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my_website" type="462c0819:PsiDirectoryNode" />
-              <item name="web_part" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="hacks-to-code" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my_website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my_website" type="462c0819:PsiDirectoryNode" />
-              <item name="web_part" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my_website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my_website" type="462c0819:PsiDirectoryNode" />
-              <item name="web_part" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my_website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my_website" type="462c0819:PsiDirectoryNode" />
-              <item name="web_part" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="resume" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -695,27 +673,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/templates/hacks_to_code/my_blog.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="6" lean-forward="true" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hacks_to_code/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/hacks_to_code/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/hacks_to_code/write_blog.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -828,13 +785,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/langs/readme.md" />
-    <entry file="file://$PROJECT_DIR$/web_part/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web_part/static/hacks-to-code/tinymce/get_data.js" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -939,30 +889,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my_website/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
-          <folding>
-            <element signature="e#634#666#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_website/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="59" column="41" selection-start-line="59" selection-start-column="41" selection-end-line="59" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/hacks_to_code/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="60" column="6" lean-forward="true" selection-start-line="60" selection-start-column="6" selection-end-line="60" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/hacks_to_code/blog_description.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -974,13 +900,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/hacks_to_code/info.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="3" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -1012,40 +931,70 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web_part/static/hacks-to-code/img/Symbol.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_website/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="28" column="47" lean-forward="true" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
+          <folding>
+            <element signature="e#634#666#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_website/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="463">
+          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_part/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="11" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/hacks_to_code/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1215">
-          <caret line="92" column="20" selection-start-line="92" selection-start-column="20" selection-end-line="92" selection-end-column="20" />
+        <state relative-caret-position="1020">
+          <caret line="68" column="62" lean-forward="true" selection-start-line="68" selection-start-column="62" selection-end-line="68" selection-end-column="62" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/hacks_to_code/my_blog.html">
+    <entry file="file://$PROJECT_DIR$/jobbot/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1335">
-          <caret line="89" column="14" selection-start-line="89" selection-start-column="14" selection-end-line="89" selection-end-column="14" />
+        <state relative-caret-position="180">
+          <caret line="12" column="46" lean-forward="true" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
           <folding>
-            <element signature="e#6683#6706#0#HTML" expanded="true" />
+            <element signature="e#0#24#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/hacks_to_code/home.html">
+    <entry file="file://$PROJECT_DIR$/jobbot/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2070">
-          <caret line="138" column="18" selection-start-line="138" selection-start-column="18" selection-end-line="138" selection-end-column="18" />
+        <state relative-caret-position="120">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web_part/static/hacks-to-code/img/Symbol.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/web_part/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="172" column="51" selection-start-line="172" selection-start-column="51" selection-end-line="172" selection-end-column="51" />
+        <state relative-caret-position="936">
+          <caret line="78" column="176" selection-start-line="78" selection-start-column="176" selection-end-line="78" selection-end-column="176" />
           <folding>
             <element signature="e#3799#3830#0#HTML" expanded="true" />
             <element signature="e#7532#7552#0#HTML" expanded="true" />
@@ -1060,6 +1009,71 @@
             <element signature="e#8553#8573#0#HTML" expanded="true" />
             <element signature="e#9009#9029#0#HTML" expanded="true" />
             <element signature="e#9084#9115#0#HTML" expanded="true" />
+            <element signature="e#8688#8721#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/hacks_to_code/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1404">
+          <caret line="36" column="79" selection-start-line="36" selection-start-column="79" selection-end-line="36" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/hacks_to_code/my_blog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="78" column="114" selection-start-line="78" selection-start-column="76" selection-end-line="78" selection-end-column="114" />
+          <folding>
+            <element signature="e#2956#2983#0#HTML" expanded="true" />
+            <element signature="e#3665#3742#0#HTML" expanded="true" />
+            <element signature="e#5811#5857#0#HTML" expanded="true" />
+            <element signature="e#6003#6049#0#HTML" expanded="true" />
+            <element signature="e#6146#6192#0#HTML" expanded="true" />
+            <element signature="e#6692#6715#0#HTML" expanded="true" />
+            <element signature="e#6950#6980#0#HTML" expanded="true" />
+            <element signature="e#7294#7316#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/hacks_to_code/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="29" column="18" lean-forward="true" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/jobbot/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="146" column="64" selection-start-line="146" selection-start-column="26" selection-end-line="146" selection-end-column="64" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h5#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/hacks_to_code/info.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="52" column="78" selection-start-line="52" selection-start-column="78" selection-end-line="52" selection-end-column="78" />
+          <folding>
+            <element signature="e#223#242#0#HTML" expanded="true" />
+            <element signature="e#311#344#0#HTML" expanded="true" />
+            <element signature="e#369#424#0#HTML" expanded="true" />
+            <element signature="e#510#529#0#HTML" expanded="true" />
+            <element signature="e#2103#2161#0#HTML" expanded="true" />
+            <element signature="e#2221#2239#0#HTML" expanded="true" />
+            <element signature="e#2430#2453#0#HTML" expanded="true" />
+            <element signature="e#3807#3868#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
