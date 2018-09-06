@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3e5331b-bc0a-490b-a338-88712eb3ea6c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/my_website/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_website/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_website/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_website/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/hacks_to_code/info.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/hacks_to_code/info.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/web_part/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/web_part/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/jobbot/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/jobbot/home.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,11 +58,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/jobbot/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="146" column="64" selection-start-line="146" selection-start-column="26" selection-end-line="146" selection-end-column="64" />
+            <state relative-caret-position="361">
+              <caret line="98" lean-forward="true" selection-start-line="98" selection-end-line="98" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -109,11 +107,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="info.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="info.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/hacks_to_code/info.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="52" column="78" selection-start-line="52" selection-start-column="78" selection-end-line="52" selection-end-column="78" />
+            <state relative-caret-position="251">
+              <caret line="124" selection-start-line="124" selection-end-line="124" />
               <folding>
                 <element signature="e#223#242#0#HTML" expanded="true" />
                 <element signature="e#311#344#0#HTML" expanded="true" />
@@ -226,8 +224,8 @@
         <option value="$PROJECT_DIR$/jobbot/urls.py" />
         <option value="$PROJECT_DIR$/jobbot/views.py" />
         <option value="$PROJECT_DIR$/templates/web_part/index.html" />
-        <option value="$PROJECT_DIR$/templates/jobbot/home.html" />
         <option value="$PROJECT_DIR$/templates/hacks_to_code/info.html" />
+        <option value="$PROJECT_DIR$/templates/jobbot/home.html" />
       </list>
     </option>
   </component>
@@ -1045,26 +1043,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/jobbot/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="146" column="64" selection-start-line="146" selection-start-column="26" selection-end-line="146" selection-end-column="64" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h5#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/hacks_to_code/info.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="52" column="78" selection-start-line="52" selection-start-column="78" selection-end-line="52" selection-end-column="78" />
+        <state relative-caret-position="251">
+          <caret line="124" selection-start-line="124" selection-end-line="124" />
           <folding>
             <element signature="e#223#242#0#HTML" expanded="true" />
             <element signature="e#311#344#0#HTML" expanded="true" />
@@ -1074,6 +1056,22 @@
             <element signature="e#2221#2239#0#HTML" expanded="true" />
             <element signature="e#2430#2453#0#HTML" expanded="true" />
             <element signature="e#3807#3868#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/jobbot/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="98" lean-forward="true" selection-start-line="98" selection-end-line="98" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h5#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
