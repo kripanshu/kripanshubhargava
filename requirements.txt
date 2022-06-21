@@ -11,7 +11,7 @@ jsmin==2.2.2
 jsonfield==2.0.2
 node==0.9.22
 npm==0.1.1
-numpy==1.14.5
+numpy==1.22.0
 odict==1.6.2
 optional-django==0.1.0
 pandas==0.22.0
