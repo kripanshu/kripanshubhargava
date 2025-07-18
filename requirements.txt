@@ -23,7 +23,7 @@ python-dateutil==2.7.3
 pytz==2018.4
 requests==2.18.4
 six==1.11.0
-urllib3==1.22
+urllib3==2.5.0
 zope.component==4.4.1
 zope.deprecation==4.3.0
 zope.event==4.3.0
