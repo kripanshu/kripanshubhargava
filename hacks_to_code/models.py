@@ -4,7 +4,7 @@ import jsonfield
 # For the prototype, set the current schema for now...
 from model_utils.models import TimeStampedModel
 from collections import OrderedDict
-from tinymce import HTMLField
+from tinymce.models import HTMLField
 from utils.basic_response import (ok_resp,
                                   err_resp)
 

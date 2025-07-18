@@ -1,5 +1,5 @@
 import json
-from tinymce import TinyMCE
+from tinymce.widgets import TinyMCE
 from django import forms
 from django.conf import settings
 from django.utils.translation import gettext_lazy as _

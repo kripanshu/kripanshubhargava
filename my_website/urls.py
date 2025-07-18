@@ -19,14 +19,14 @@ from django.conf.urls import include
 from django.views.generic import RedirectView
 from django.conf import settings
 from django.conf.urls.static import static
-from django.conf.urls import url, include
+from django.urls import re_path, include
 
-# url(r'^$', 'index', name='index')
+# re_path(r'^$', 'index', name='index')
 urlpatterns = [
-    url(r'^admin/', admin.site.urls),
+    re_path(r'^admin/', admin.site.urls),
     path('', include('web_part.urls')),
-    url(r'^hacks-to-code/', include('hacks_to_code.urls')),
-    url(r'^tinymce/', include('tinymce.urls')),
-    url(r'^jobbot/', include('jobbot.urls')),
+    re_path(r'^hacks-to-code/', include('hacks_to_code.urls')),
+    re_path(r'^tinymce/', include('tinymce.urls')),
+    re_path(r'^jobbot/', include('jobbot.urls')),
 ]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
